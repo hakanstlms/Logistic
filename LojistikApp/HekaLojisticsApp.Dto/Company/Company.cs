@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HekaLojisticsApp.Dto.Type
+namespace HekaLojisticsApp.Dto.Company
 {
-    class Test
+    class Company
     {
     }
 }
