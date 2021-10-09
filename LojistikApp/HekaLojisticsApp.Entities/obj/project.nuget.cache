@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "v2Lja5+GezYymRNbFjIsNQBwWGPGsA5HcOau61iljHPQDSjvBDXyD0j8Pog71lKyg2fnkaPB8tt2DwtIBCJSzg==",
+  "success": true,
+  "projectFilePath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pro\\.nuget\\packages\\microsoft.odata.edm\\7.9.2\\microsoft.odata.edm.7.9.2.nupkg.sha512",
+    "C:\\Users\\pro\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\pro\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\pro\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

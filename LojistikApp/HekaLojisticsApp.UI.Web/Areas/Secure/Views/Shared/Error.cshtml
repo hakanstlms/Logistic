@@ -1,0 +1,42 @@
+﻿@using HekaLojisticsApp.UI.Web.Models
+@{
+
+    ErrorViewModel errorModel = ViewData["ErrorViewModel"] as ErrorViewModel;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card card-default">
+            <div class="card-header">
+                <h3 class="card-title">
+                    <i class="fas fa-exclamation-triangle"></i>
+
+                </h3>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+
+                <div class="callout callout-danger">
+
+
+                    <pre>@errorModel.Message</pre>
+                </div>
+
+                @if (errorModel.Detail != null)
+                {
+                    <code>@errorModel.Detail</code>
+                }
+
+
+
+
+
+
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+    <!-- /.col -->
+    <!-- /.col -->
+</div>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\EntityFramework\Context\" />
+    <Folder Include="Concrete\EntityFramework\Seed\" />
+    <Folder Include="Concrete\EntityFramework\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HekaLojisticsApp.Entities\HekaLojisticsApp.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

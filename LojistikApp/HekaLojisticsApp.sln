@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{DF8C6362-B00F-41BC-BDA5-71A523FE7DC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D0F8549C-A98D-4D0D-8C7C-C49FF8777D73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{78BE5922-C105-4A68-8DB1-193512D94FC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6309A95C-AF03-4CB5-B51C-3A8BFAB28D27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.DataAccess", "HekaLojisticsApp.DataAccess\HekaLojisticsApp.DataAccess.csproj", "{7FC0F208-8796-47AB-AAB7-909672C2B990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Business", "HekaLojisticsApp.Business\HekaLojisticsApp.Business.csproj", "{94DCE2C7-2246-45E4-844D-ACF2F3BC63F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Dto", "HekaLojisticsApp.Dto\HekaLojisticsApp.Dto.csproj", "{5496B8EC-8997-41E6-A60D-C470FA841CDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Entities", "HekaLojisticsApp.Entities\HekaLojisticsApp.Entities.csproj", "{0871D1E3-5B88-4C3F-A194-7297BF936EB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Core", "HekaLojisticsApp.Core\HekaLojisticsApp.Core.csproj", "{D31CBB78-EE87-4402-AD6D-80A5FAF60352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.Web.Framework", "HekaLojistikApp.WebFramework\HekaLojisticsApp.Web.Framework.csproj", "{D8F41A0A-ECAF-41C6-AE53-CD0E8176598E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.UI.Web", "HekaLojisticsApp.UI.Web\HekaLojisticsApp.UI.Web.csproj", "{26DBB566-280C-4F73-92B4-C9BDABCB74F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.UI.WebAPI", "HekaLojisticsApp.UI.WebAPI\HekaLojisticsApp.UI.WebAPI.csproj", "{EF04A97E-9B59-49D6-9AF6-01AE41568653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FC0F208-8796-47AB-AAB7-909672C2B990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC0F208-8796-47AB-AAB7-909672C2B990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC0F208-8796-47AB-AAB7-909672C2B990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC0F208-8796-47AB-AAB7-909672C2B990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DCE2C7-2246-45E4-844D-ACF2F3BC63F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DCE2C7-2246-45E4-844D-ACF2F3BC63F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DCE2C7-2246-45E4-844D-ACF2F3BC63F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DCE2C7-2246-45E4-844D-ACF2F3BC63F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5496B8EC-8997-41E6-A60D-C470FA841CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5496B8EC-8997-41E6-A60D-C470FA841CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5496B8EC-8997-41E6-A60D-C470FA841CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5496B8EC-8997-41E6-A60D-C470FA841CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0871D1E3-5B88-4C3F-A194-7297BF936EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0871D1E3-5B88-4C3F-A194-7297BF936EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0871D1E3-5B88-4C3F-A194-7297BF936EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0871D1E3-5B88-4C3F-A194-7297BF936EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31CBB78-EE87-4402-AD6D-80A5FAF60352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31CBB78-EE87-4402-AD6D-80A5FAF60352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31CBB78-EE87-4402-AD6D-80A5FAF60352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31CBB78-EE87-4402-AD6D-80A5FAF60352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F41A0A-ECAF-41C6-AE53-CD0E8176598E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F41A0A-ECAF-41C6-AE53-CD0E8176598E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F41A0A-ECAF-41C6-AE53-CD0E8176598E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F41A0A-ECAF-41C6-AE53-CD0E8176598E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DBB566-280C-4F73-92B4-C9BDABCB74F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DBB566-280C-4F73-92B4-C9BDABCB74F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DBB566-280C-4F73-92B4-C9BDABCB74F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DBB566-280C-4F73-92B4-C9BDABCB74F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF04A97E-9B59-49D6-9AF6-01AE41568653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF04A97E-9B59-49D6-9AF6-01AE41568653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF04A97E-9B59-49D6-9AF6-01AE41568653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF04A97E-9B59-49D6-9AF6-01AE41568653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FC0F208-8796-47AB-AAB7-909672C2B990} = {78BE5922-C105-4A68-8DB1-193512D94FC6}
+		{94DCE2C7-2246-45E4-844D-ACF2F3BC63F8} = {78BE5922-C105-4A68-8DB1-193512D94FC6}
+		{5496B8EC-8997-41E6-A60D-C470FA841CDF} = {78BE5922-C105-4A68-8DB1-193512D94FC6}
+		{0871D1E3-5B88-4C3F-A194-7297BF936EB4} = {78BE5922-C105-4A68-8DB1-193512D94FC6}
+		{D31CBB78-EE87-4402-AD6D-80A5FAF60352} = {78BE5922-C105-4A68-8DB1-193512D94FC6}
+		{D8F41A0A-ECAF-41C6-AE53-CD0E8176598E} = {6309A95C-AF03-4CB5-B51C-3A8BFAB28D27}
+		{26DBB566-280C-4F73-92B4-C9BDABCB74F9} = {6309A95C-AF03-4CB5-B51C-3A8BFAB28D27}
+		{EF04A97E-9B59-49D6-9AF6-01AE41568653} = {6309A95C-AF03-4CB5-B51C-3A8BFAB28D27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {338F8AF0-578F-4138-B1E3-0F0A496637B4}
+	EndGlobalSection
+EndGlobal
