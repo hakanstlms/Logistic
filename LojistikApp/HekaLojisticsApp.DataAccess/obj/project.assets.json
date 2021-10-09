@@ -674,20 +674,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pro\\.nuget\\packages\\": {}
+    "C:\\Users\\halil\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj",
       "projectName": "HekaLojisticsApp.DataAccess",
-      "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
-      "outputPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -700,8 +705,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj": {
-              "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj"
+            "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj": {
+              "projectPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj"
             }
           }
         }
@@ -736,7 +741,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

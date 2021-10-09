@@ -8,5 +8,6 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
 {
     class OrderType
     {
+        public int OrderTypeId { get; set; }
     }
 }
