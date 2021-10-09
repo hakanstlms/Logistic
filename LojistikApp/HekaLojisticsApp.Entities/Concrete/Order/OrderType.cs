@@ -11,5 +11,8 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         public int OrderTypeId { get; set; }
         public int OrdertypeName { get; set; }
         public int OrderCode { get; set; }
+       // public int OrdertypeName { get; set; }
+       //test
+
     }
 }
