@@ -17,6 +17,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Company
         public string Title2 { get; set; }
 
         #endregion
+    
 
         #region NAVIGATION PROPERTIES
 

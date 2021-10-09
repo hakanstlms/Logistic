@@ -5,9 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+ 
     <Folder Include="Common\" />
     <Folder Include="Service\WebAPI\" />
     <Folder Include="Web\" />
+ 
   </ItemGroup>
 
 </Project>

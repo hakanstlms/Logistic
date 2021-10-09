@@ -1,0 +1,12 @@
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\HekaLojisticsApp.Dto.deps.json
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\HekaLojisticsApp.Dto.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\ref\HekaLojisticsApp.Dto.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\HekaLojisticsApp.Dto.pdb
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.csproj.AssemblyReference.cache
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.AssemblyInfoInputs.cache
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.AssemblyInfo.cs
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.csproj.CoreCompileInputs.cache
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\ref\HekaLojisticsApp.Dto.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.pdb
