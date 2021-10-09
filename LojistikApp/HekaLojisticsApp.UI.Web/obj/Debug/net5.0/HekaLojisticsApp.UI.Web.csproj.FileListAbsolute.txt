@@ -430,13 +430,6 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Shared\_LayoutJs.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Shared\_ViewImports.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Shared\_ViewStart.cshtml.g.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Views\Vehicle\Index.cshtml.g.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.RazorTargetAssemblyInfo.cache
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.RazorTargetAssemblyInfo.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\appsettings.Development.json
