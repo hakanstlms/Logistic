@@ -54,7 +54,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Company
 
         #region NAVIGATION PROPERTIES
 
-        public List<AddressEntity> Address { get; set; }
+        public List<CompanyAddressEntity> Address { get; set; }
         #endregion
 
 
