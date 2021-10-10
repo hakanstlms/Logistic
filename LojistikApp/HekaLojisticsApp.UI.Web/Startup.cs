@@ -54,7 +54,7 @@ namespace HekaLojisticsApp.UI.Web
                 endpoints.MapAreaControllerRoute(
                     name: "Secure",
                     areaName: "Secure",
-                    pattern: "{controller=Home}/{action=Index}/{id?}"
+                    pattern: "{areas=Secure}/{controller=Home}/{action=Index}/{id?}"
                 );
 
                 endpoints.MapDefaultControllerRoute();

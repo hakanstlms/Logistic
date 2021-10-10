@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Enum\Types\" />
     <Folder Include="Helper\" />
     <Folder Include="Messages\" />
     <Folder Include="Tool\" />

@@ -808,3 +808,4 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.Views.pdb
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.csproj.CopyComplete
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.genruntimeconfig.cache
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Order\Index.cshtml.g.cs
