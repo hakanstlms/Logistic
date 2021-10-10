@@ -6,10 +6,15 @@ namespace HekaLojisticsApp.Core.Enum.Types
     {
 
         [Display(Name = "Depo Adresi")]
-        DepoAdresi = 0,
+        DepoAdres = 0,
 
         [Display(Name = "Firma Adresi")]
-        FirmaAdresi = 1,
+        FirmaAdres = 1,
 
+        [Display(Name = "Sevkiyat Adresi")]
+        SevkiyatAdres = 2,
+ 
+        [Display(Name = "Fatura Adresi")]
+        FaturaAdres = 3,
     }
 }

@@ -1,4 +1,6 @@
-﻿using HekaLojisticsApp.Entities.Abtract;
+﻿using HekaLojisticsApp.Core.Enum.Codes;
+using HekaLojisticsApp.Core.Enum.Types;
+using HekaLojisticsApp.Entities.Abtract;
 using HekaLojisticsApp.Entities.Base;
 using Microsoft.OData.Edm;
 
@@ -18,8 +20,8 @@ namespace HekaLojisticsApp.Entities.Concrete.Vehicle
         public string Mark { get; set; }
         public string Model { get; set; }
         public string ChassisNumber { get; set; }
-        public string VehicleAllocationCode { get; set; }
-        public string VehicleTypeCode { get; set; }
+        public VehicleAllocationCodeEnum VehicleAllocationCode { get; set; }
+        public VehicleTypeCodeEnum VehicleTypeCode { get; set; }
         public string OwnerCompanyId { get; set; }
         public Date ContractStartDate { get; set; }
         public Date ContractEndDate { get; set; }
@@ -31,10 +33,10 @@ namespace HekaLojisticsApp.Entities.Concrete.Vehicle
         public decimal Height { get; set; }
         public decimal TrailerHeadWeight { get; set; }
         public decimal LoadCapacity { get; set; }
-        public string UnitKod { get; set; }
-        public string TrailerTypeCode { get; set; }
+        public string UnitId { get; set; }
+        public TrailerTypeCodeEnum TrailerTypeCode { get; set; }
         public string PersonelCode { get; set; }
-        public string StatusCode { get; set; }
+        public StatusCodeEnum StatusCode { get; set; }
         public int CarePeriyot { get; set; }
         // Oransal sınır
         public int ProportionalLimit { get; set; }
@@ -45,7 +47,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Vehicle
         public char Approval { get; set; }
         public char İnvalidation { get; set; }
         public char KmHourControl { get; set; }
-        public string Comment { get; set; }
+        public string Description { get; set; }
 
         #endregion
 

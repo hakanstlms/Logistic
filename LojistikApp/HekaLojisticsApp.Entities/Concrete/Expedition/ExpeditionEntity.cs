@@ -5,7 +5,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Expedition
 {
     public class ExpeditionEntity : BaseEntity, IEntity
     {
-
+        //Sefer 
         #region CTOR
 
         #endregion

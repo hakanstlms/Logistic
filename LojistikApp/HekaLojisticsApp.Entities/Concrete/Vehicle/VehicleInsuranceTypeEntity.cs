@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HekaLojisticsApp.Core.Enum.Codes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,8 +18,9 @@ namespace HekaLojisticsApp.Entities.Concrete.Vehicle
         public int VehicleInsuranceTypeId { get; set; }
         public string Code { get; set; }
         public string Definition { get; set; }
-        public string DefaultPeriyodUnitCode { get; set; }
-        public string DefaultPeriyodCode { get; set; }
+        public PeriyodUnitCodeEnum DefaultPeriyodUnitCode { get; set; }
+        //public string DefaultPeriyodCode { get; set; }
+        //Zorunlu
         public char Compulsory { get; set; }
         #endregion
 
