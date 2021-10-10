@@ -42,6 +42,16 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
+      },
+      "HekaLojisticsApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/HekaLojisticsApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HekaLojisticsApp.Core.dll": {}
+        }
       }
     }
   },
@@ -132,10 +142,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "HekaLojisticsApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../HekaLojisticsApp.Core/HekaLojisticsApp.Core.csproj",
+      "msbuildProject": "../HekaLojisticsApp.Core/HekaLojisticsApp.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "HekaLojisticsApp.Core >= 1.0.0",
       "Microsoft.OData.Edm >= 7.9.2"
     ]
   },
@@ -170,7 +186,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+              "projectPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

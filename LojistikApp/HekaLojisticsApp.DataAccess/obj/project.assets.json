@@ -202,10 +202,21 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
+      "HekaLojisticsApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/HekaLojisticsApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HekaLojisticsApp.Core.dll": {}
+        }
+      },
       "HekaLojisticsApp.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "HekaLojisticsApp.Core": "1.0.0",
           "Microsoft.OData.Edm": "7.9.2"
         },
         "compile": {
@@ -660,6 +671,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "HekaLojisticsApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../HekaLojisticsApp.Core/HekaLojisticsApp.Core.csproj",
+      "msbuildProject": "../HekaLojisticsApp.Core/HekaLojisticsApp.Core.csproj"
     },
     "HekaLojisticsApp.Entities/1.0.0": {
       "type": "project",

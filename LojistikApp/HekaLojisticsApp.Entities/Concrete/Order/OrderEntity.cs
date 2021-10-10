@@ -1,31 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HekaLojisticsApp.Core.Enum.Codes;
+using HekaLojisticsApp.Core.Enum.Status;
+using HekaLojisticsApp.Entities.Abtract;
+using HekaLojisticsApp.Entities.Base;
+using System;
 
 namespace HekaLojisticsApp.Entities.Concrete.Order
 {
-    public class OrderEntity
+    public class OrderEntity:BaseEntity,IEntity
     {
         #region CTOR
+        public OrderEntity()
+        {
+            OrderDate = DateTime.Now.ToShortDateString();
+            OrderTime = DateTime.Now.ToShortTimeString();
+            
 
+        }
         #endregion
 
         #region PROPERTIES
         public int OrderId { get; set; }
-        public string Code { get; set; }
-        public DateTime OrderDate { get; set; }
-        public DateTime OrderTime { get; set; }
+        public string OrderCode { get; set; }
+        public string OrderDate { get; set; }
+        public string OrderTime { get; set; }
         //Yükleme Tarih
         public DateTime UploadDate { get; set; }
         public DateTime DeadlineDate { get; set; }
-        public string UploadTypeCode { get; set; }
+        public UploadTypeCodeEnum UploadTypeCode { get; set; }
         //İşlem yön kod
-        public string TransactionDrectionCode { get; set; }
-        public string StatusCode { get; set; }
+        public string TransactionDirectionCode { get; set; }
+        public OrderStatusCodeEnum StatusCode { get; set; }
         //yükleme Noktası Kod
-        public string UploadPointCode { get; set; }
+        public UploadPointCodeEnum UploadPointCode { get; set; }
         public int CompanyId { get; set; }
         //Gönderici Firma
         public int ShipperCompanyId { get; set; }
@@ -34,14 +40,14 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         public decimal TotalWeight { get; set; }
         //Toplam Hacim
         public decimal TotalVolume { get; set; }
-        public string WeightUnitCode { get; set; }
-        public string VolumeUnitCode { get; set; }
+        public UnitCodeEnum WeightUnitCode { get; set; }
+        public UnitCodeEnum VolumeUnitCode { get; set; }
         public decimal Amount { get; set; }
         public decimal TotalAmount { get; set; }
-        public string CurrencyCode { get; set; }
-        public char Closed { get; set; }
-        public char Approval { get; set; }
-        public char Cancel { get; set; }
+        public CurrencyCodeEnum CurrencyCode { get; set; }
+        public bool Closed { get; set; }
+        public bool Approval { get; set; }
+        public bool Cancel { get; set; }
         public DateTime ApprovalDate { get; set; }
         //Fatura Durum Kod
         public string InvoiceStatusCode { get; set; }
@@ -77,7 +83,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         //Kur
         public int Rate { get; set; }
         public DateTime RateDate { get; set; }
-        public int Commit { get; set; }
+      
         #endregion
 
         #region NAVIGATION PROPERTIES

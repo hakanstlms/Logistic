@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "HekaLojisticsApp.Entities/1.0.0": {
         "dependencies": {
+          "HekaLojisticsApp.Core": "1.0.0",
           "Microsoft.OData.Edm": "7.9.2"
         },
         "runtime": {
@@ -29,7 +30,12 @@
       },
       "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
       "System.Text.Encodings.Web/4.7.2": {},
-      "System.Text.Json/4.6.0": {}
+      "System.Text.Json/4.6.0": {},
+      "HekaLojisticsApp.Core/1.0.0": {
+        "runtime": {
+          "HekaLojisticsApp.Core.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -65,6 +71,11 @@
       "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
       "path": "system.text.json/4.6.0",
       "hashPath": "system.text.json.4.6.0.nupkg.sha512"
+    },
+    "HekaLojisticsApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
