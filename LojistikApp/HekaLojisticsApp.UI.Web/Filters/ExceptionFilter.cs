@@ -50,6 +50,9 @@ namespace HekaLojisticsApp.UI.Web.Filters
                         result.StatusCode = 403;
                         _logger.LogError(context.Exception, context.Exception.Message);
                         break;
+
+
+                        
                     default:
                         mvcErrorModel.Message =
                             $"İşleminiz sırasında beklenmedik bir hata oluştu. Sorunu en kısa sürede çözeceğiz." + context.Exception;
