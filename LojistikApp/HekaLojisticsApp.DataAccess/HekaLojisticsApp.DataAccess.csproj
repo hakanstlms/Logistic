@@ -5,16 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\EntityFramework\Context\" />
  
     <Folder Include="Concrete\EntityFramework\Seed\" />
- 
-    <Folder Include="Concrete\EntityFramework\Repositories\" />
-    <Folder Include="Abstract\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="LinqKit" Version="1.1.26" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
   </ItemGroup>
 
