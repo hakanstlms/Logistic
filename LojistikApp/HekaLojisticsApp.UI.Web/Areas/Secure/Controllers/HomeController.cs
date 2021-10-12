@@ -13,6 +13,7 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure
         #region CTOR
         public HomeController()
         {
+        
 
         }
         #endregion

@@ -14,4 +14,3 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.DataAcc
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.DataAccess\obj\Debug\net5.0\HekaLojisticsApp.DataAccess.pdb
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.DataAccess\bin\Debug\net5.0\HekaLojisticsApp.Core.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.DataAccess\bin\Debug\net5.0\HekaLojisticsApp.Core.pdb
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.DataAccess\obj\Debug\net5.0\HekaLojisticsApp.DataAccess.csproj.CopyComplete

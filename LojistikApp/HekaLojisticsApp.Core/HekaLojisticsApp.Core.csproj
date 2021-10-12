@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="AppConfig\" />
     <Folder Include="Helper\" />
     <Folder Include="Messages\" />
     <Folder Include="Tool\" />

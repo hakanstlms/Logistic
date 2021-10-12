@@ -15,4 +15,9 @@
  
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HekaLojisticsApp.Core\HekaLojisticsApp.Core.csproj" />
+    <ProjectReference Include="..\HekaLojisticsApp.Dto\HekaLojisticsApp.Dto.csproj" />
+  </ItemGroup>
+
 </Project>

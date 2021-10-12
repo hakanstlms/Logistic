@@ -12,8 +12,6 @@
     <ProjectReference Include="..\HekaLojisticsApp.Core\HekaLojisticsApp.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Concrete\Address\" />
-  </ItemGroup>
+ 
 
 </Project>
