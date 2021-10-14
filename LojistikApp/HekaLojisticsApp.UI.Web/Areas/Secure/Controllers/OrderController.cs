@@ -1,5 +1,5 @@
-﻿using HekaLojisticsApp.Dto.Order;
-using HekaLojisticsApp.UI.Web.Areas.Secure.Base;
+﻿using HekaLojisticsApp.UI.Web.Areas.Secure.Base;
+using HekaLojisticsApp.UI.Web.Models.Order;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
@@ -24,12 +24,12 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOrder(AddOrderDto order)
+        public IActionResult CreateOrder(OrderViewModel order)
         {
 
             return View();
 
-            
+
         }
 
         public IActionResult CreateOrder()
@@ -39,7 +39,7 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
         }
 
         [HttpPost]
-        public IActionResult UpdateOrder(UpdateOrderDto order)
+        public IActionResult UpdateOrder(OrderViewModel order)
         {
 
             return View();
@@ -61,7 +61,7 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
         }
 
 
-        public IActionResult Get()
+        public IActionResult Detail()
         {
 
             return View();
@@ -69,7 +69,7 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get(int id)
+        public IActionResult Detail(int id)
         {
 
             return View();
@@ -78,7 +78,7 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
 
 
         [HttpPost]
-        public IActionResult Serach(ListOrderDto order)
+        public IActionResult Search(OrderViewModel order)
         {
 
             return View();
@@ -86,7 +86,6 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
         }
 
         #endregion
-
 
         #region METHODS
         #endregion
