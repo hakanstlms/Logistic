@@ -83,7 +83,6 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         //Kur
         public int Rate { get; set; }
         public DateTime RateDate { get; set; }
-        public string Description { get; set; }
 
         #endregion
 

@@ -6,6 +6,10 @@
 
   <ItemGroup>
  
+    <Folder Include="Concrete\EntityFramework\Configurations\Order\" />
+ 
+    <Folder Include="Concrete\EntityFramework\Configurations\Finance\" />
+ 
     <Folder Include="Concrete\EntityFramework\Seed\" />
   </ItemGroup>
 

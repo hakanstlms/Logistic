@@ -30,7 +30,6 @@ namespace HekaLojisticsApp.Entities.Concrete.Address
         public string PhoneNumber { get; set; }
         public string MobileNumber { get; set; }
         public string Fax { get; set; }
-        public string Description { get; set; }
 
 
         #endregion

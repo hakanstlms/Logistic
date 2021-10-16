@@ -45,9 +45,6 @@ namespace HekaLojisticsApp.Entities.Concrete.Company
         public bool Problem { get; set; }
         public bool Cancel { get; set; }
         public string WebSite { get; set; }
-        public string Description { get; set; }
-
-
 
         #endregion
 

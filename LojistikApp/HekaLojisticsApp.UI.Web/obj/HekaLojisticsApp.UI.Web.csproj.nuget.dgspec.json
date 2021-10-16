@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj": {}
+    "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+    "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj",
+        "projectUniqueName": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj",
         "projectName": "HekaLojisticsApp.Core",
-        "projectPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj",
-        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\obj\\",
+        "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj",
+        "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -58,26 +54,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
+    "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj",
+        "projectUniqueName": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj",
         "projectName": "HekaLojisticsApp.Dto",
-        "projectPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj",
-        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Dto\\obj\\",
+        "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj",
+        "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Dto\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -116,26 +108,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj": {
+    "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj",
+        "projectUniqueName": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj",
         "projectName": "HekaLojisticsApp.UI.Web",
-        "projectPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj",
-        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.Web\\obj\\",
+        "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj",
+        "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.UI.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -148,11 +136,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
-                "projectPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
+              "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+                "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
               },
-              "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
-                "projectPath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj"
+              "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
+                "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj"
               }
             }
           }
@@ -186,6 +174,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.8, 5.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -194,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
         }
       }
     }

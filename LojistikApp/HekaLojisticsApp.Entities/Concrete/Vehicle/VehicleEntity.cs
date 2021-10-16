@@ -35,7 +35,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Vehicle
         public decimal LoadCapacity { get; set; }
         public string UnitId { get; set; }
         public TrailerTypeCodeEnum TrailerTypeCode { get; set; }
-        public string PersonelCode { get; set; }
+        public int PersonelId { get; set; }
         public StatusCodeEnum StatusCode { get; set; }
         public int CarePeriyot { get; set; }
         // Oransal sınır
@@ -45,9 +45,8 @@ namespace HekaLojisticsApp.Entities.Concrete.Vehicle
         //Lastik bildirim
         public char TireNotification { get; set; }
         public char Approval { get; set; }
-        public char İnvalidation { get; set; }
+        public char Invalidation { get; set; }
         public char KmHourControl { get; set; }
-        public string Description { get; set; }
 
         #endregion
 

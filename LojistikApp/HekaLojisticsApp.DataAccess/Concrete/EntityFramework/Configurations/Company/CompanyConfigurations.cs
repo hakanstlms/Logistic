@@ -16,14 +16,17 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Co
 
 
 
+            builder.Property(a => a.CreatedDate).IsRequired();
+            builder.Property(a => a.UpdatedDate).IsRequired();
             builder.Property(a => a.CreatedUser).HasMaxLength(50);
             builder.Property(a => a.UpdatedUser).HasMaxLength(50);
             builder.Property(a => a.IsActive).IsRequired();
+            builder.Property(a => a.Description).IsRequired();
             #endregion
 
             #region TABLE & SCHEMES
 
-           // builder.ToTable("Company","Company");
+            // builder.ToTable("Company","Company");
 
             #endregion
 

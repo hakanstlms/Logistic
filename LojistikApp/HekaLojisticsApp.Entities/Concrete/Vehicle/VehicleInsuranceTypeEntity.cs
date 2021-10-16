@@ -1,13 +1,10 @@
 ﻿using HekaLojisticsApp.Core.Enum.Codes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using HekaLojisticsApp.Entities.Abtract;
+using HekaLojisticsApp.Entities.Base;
 
 namespace HekaLojisticsApp.Entities.Concrete.Vehicle
 {
-    public class VehicleInsuranceTypeEntity
+    public class VehicleInsuranceTypeEntity : BaseEntity, IEntity
     {
         //araç sigorta Tip
         #region CTOR

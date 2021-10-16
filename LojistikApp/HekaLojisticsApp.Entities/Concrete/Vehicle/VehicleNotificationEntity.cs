@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HekaLojisticsApp.Entities.Abtract;
+using HekaLojisticsApp.Entities.Base;
 
 namespace HekaLojisticsApp.Entities.Concrete.Vehicle
 {
-   public  class VehicleNotificationEntity
+    public class VehicleNotificationEntity : BaseEntity, IEntity
     {
         #region CTOR
 
