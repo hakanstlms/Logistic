@@ -1,16 +1,27 @@
-﻿using HekaLojisticsApp.Entities.Concrete.Order;
+﻿using HekaLojisticsApp.Core.Settings;
+using HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Order;
+using HekaLojisticsApp.Entities.Concrete.Order;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Context
 {
     public class LojistikAppContext : DbContext
     {
         #region CTOR
-        public LojistikAppContext(DbContextOptions<LojistikAppContext> options) : base(options)
+        public LojistikAppContext() 
         {
 
         }
 
+        #endregion
+
+        #region CONFIGURE
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(AppSetting.ConnectionStrings);
+            
+        }
         #endregion
 
         #region DBSET
@@ -22,7 +33,10 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Context
         #region MAPPING & SEED
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfiguration(new OrderConfiguration());
+
+         
         }
 
         #endregion

@@ -1,4 +1,5 @@
 ﻿using HekaLojisticsApp.UI.Web.Areas.Secure.Base;
+using HekaLojisticsApp.UI.Web.Filters;
 using HekaLojisticsApp.UI.Web.Models.Order;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,75 +18,77 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
         }
         #endregion
 
-        #region ACTION RESULTS
+        #region ACTION RESULT
+
+        #region LIST
         public IActionResult Index()
         {
             return View();
         }
+        #endregion
+
+        #region UPDATE
+
+        public IActionResult UpdateOrder(int id)
+        { 
+            return View();
+        }
 
         [HttpPost]
-        public IActionResult CreateOrder(OrderViewModel order)
+        [ModelStateValidation]
+        public IActionResult UpdateOrder(OrderViewModel model)
         {
-
             return View();
-
-
         }
+
+        #endregion
+
+        #region CREATE
 
         public IActionResult CreateOrder()
         {
 
             return View();
+
         }
 
         [HttpPost]
-        public IActionResult UpdateOrder(OrderViewModel order)
-        {
-
-            return View();
-        }
-
-
-        public IActionResult UpdateOrder()
-        {
-
-            return View();
-        }
-
-
-        [HttpGet]
-        public IActionResult Delete(int id)
-        {
-            return View();
-
-        }
-
-
-        public IActionResult Detail()
+        [ModelStateValidation]
+        public IActionResult CreateOrder(OrderViewModel model)
         {
 
             return View();
 
         }
+        #endregion
 
-        [HttpGet]
-        public IActionResult Detail(int id)
+        #region DELETE
+
+        public IActionResult DeleteOrder(int id)
         {
 
             return View();
 
-        }
-
-
-        [HttpPost]
-        public IActionResult Search(OrderViewModel order)
-        {
-
-            return View();
 
         }
 
         #endregion
+
+        #region DETAIL
+
+        public IActionResult DetailOrder(int id)
+        {
+
+            return View();
+        }
+
+        #endregion
+
+
+        #endregion
+
+
+
 
         #region METHODS
         #endregion

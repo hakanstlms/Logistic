@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
+using HekaLojisticsApp.Business.Abstract.Company;
+using HekaLojisticsApp.Business.Concrete.Base;
+using HekaLojisticsApp.DataAccess.Concrete.UnitOfWork;
 
 namespace HekaLojisticsApp.Business.Concrete.Company
 {
-    public class CompanyManager
+    public class CompanyManager : ManagerBase, ICompanyService
     {
+
+        public CompanyManager(IUnitOfWork unitOfWork,IMapper mapper) : base(unitOfWork,mapper)
+        {
+
+        }
+         
     }
 }

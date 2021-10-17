@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-  
-    <Folder Include="Base\" />
+    <ProjectReference Include="..\HekaLojisticsApp.Core\HekaLojisticsApp.Core.csproj" />
   </ItemGroup>
 
 </Project>

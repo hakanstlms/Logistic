@@ -4,12 +4,30 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="AppConfig\" />
-    <Folder Include="Helper\" />
-    <Folder Include="Messages\" />
-    <Folder Include="Tool\" />
  
+
+  <ItemGroup>
+    <Folder Include="Helper\" />
+ 
+  </ItemGroup>
+
+ 
+
+  <ItemGroup>
+    <Compile Update="AppMessages\Order\OrderResource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>OrderResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+ 
+
+  <ItemGroup>
+    <EmbeddedResource Update="AppMessages\Order\OrderResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>OrderResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

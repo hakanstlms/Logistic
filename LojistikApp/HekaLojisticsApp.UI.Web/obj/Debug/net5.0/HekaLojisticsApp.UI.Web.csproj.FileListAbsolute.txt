@@ -422,7 +422,6 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Company\Index.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Employee\CreateEmployee.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Employee\Index.cshtml.g.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Home\Index.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Shared\Error.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Shared\Footer.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Shared\Menu.cshtml.g.cs
@@ -432,8 +431,6 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Shared\_ViewStart.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.RazorTargetAssemblyInfo.cache
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.RazorTargetAssemblyInfo.cs
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\appsettings.json
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.UI.Web.exe
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.UI.Web.deps.json
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.UI.Web.runtimeconfig.json
@@ -533,7 +530,6 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -808,10 +804,19 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.Views.pdb
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.csproj.CopyComplete
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.genruntimeconfig.cache
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Order\Index.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.Core.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.Dto.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.Core.pdb
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.Dto.pdb
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Order\CreateOrder.cshtml.g.cs
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Order\Index.cshtml.g.cs
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Order\UpdateOrder.cshtml.g.cs
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Order\CreateOrder.cshtml.g.cs
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Home\Index.cshtml.g.cs
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\Settings\appsettings.Development.json
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\Settings\appsettings.json
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

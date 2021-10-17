@@ -2,6 +2,7 @@
 using HekaLojisticsApp.Core.Enum.Status;
 using HekaLojisticsApp.Entities.Abtract;
 using HekaLojisticsApp.Entities.Base;
+using HekaLojisticsApp.Entities.Concrete.Company;
 using System;
 
 namespace HekaLojisticsApp.Entities.Concrete.Order
@@ -87,6 +88,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         #endregion
 
         #region NAVIGATION PROPERTIES
+       // public CompanyEntity CompanyEntity { get; set; }
 
         #endregion
     }

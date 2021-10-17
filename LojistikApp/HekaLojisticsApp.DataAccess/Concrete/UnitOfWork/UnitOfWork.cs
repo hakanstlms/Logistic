@@ -7,6 +7,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
+
         #region FIELDS
         private readonly LojistikAppContext _context;
 

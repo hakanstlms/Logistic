@@ -2,7 +2,6 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Busines
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.Business.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\ref\HekaLojisticsApp.Business.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.Business.pdb
-C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.csproj.AssemblyReference.cache
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.AssemblyInfoInputs.cache
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.AssemblyInfo.cs
@@ -10,3 +9,13 @@ C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Busines
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\ref\HekaLojisticsApp.Business.dll
 C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.pdb
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.csproj.AssemblyReference.cache
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.Core.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.DataAccess.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.Dto.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.Entities.dll
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.Core.pdb
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.DataAccess.pdb
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.Dto.pdb
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\bin\Debug\net5.0\HekaLojisticsApp.Entities.pdb
+C:\Users\halil\source\repos\sshneo\Logistic\LojistikApp\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.csproj.CopyComplete
