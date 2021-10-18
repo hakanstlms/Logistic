@@ -6,7 +6,7 @@ using System;
 
 namespace HekaLojisticsApp.Entities.Concrete.Vehicle
 {
-    public class VehiceTireEntity : BaseEntity, IEntity
+    public class VehicleTireEntity : BaseEntity, IEntity
     {
         //ARAÇ lASTİK
         #region CTOR

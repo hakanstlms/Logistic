@@ -2,11 +2,11 @@
 using HekaLojisticsApp.Core.Enum.Types;
 using HekaLojisticsApp.Entities.Abtract;
 using HekaLojisticsApp.Entities.Base;
-using Microsoft.OData.Edm;
+using System;
 
 namespace HekaLojisticsApp.Entities.Concrete.Vehicle
 {
-    public class VehicleEntity : BaseEntity,IEntity
+    public class VehicleEntity : BaseEntity, IEntity
     {
 
         #region CTOR
@@ -23,8 +23,8 @@ namespace HekaLojisticsApp.Entities.Concrete.Vehicle
         public VehicleAllocationCodeEnum VehicleAllocationCode { get; set; }
         public VehicleTypeCodeEnum VehicleTypeCode { get; set; }
         public string OwnerCompanyId { get; set; }
-        public Date ContractStartDate { get; set; }
-        public Date ContractEndDate { get; set; }
+        public DateTime ContractStartDate { get; set; }
+        public DateTime ContractEndDate { get; set; }
         public string CurrencyCode { get; set; }
         public int KmHour { get; set; }
         public decimal Amount { get; set; }

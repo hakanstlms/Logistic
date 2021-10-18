@@ -9,19 +9,20 @@ using System.Threading.Tasks;
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Vehicle
 {
-    class VehicleInsuranceTypeConfigurations : IEntityTypeConfiguration<VehicleInsuranceTypeEntity>   
+    class VehicleCareTypeConfiguration : IEntityTypeConfiguration<VehicleCareTypeEntity>
     {
 
-        public void Configure(EntityTypeBuilder<VehicleInsuranceTypeEntity> builder)
+        public void Configure(EntityTypeBuilder<VehicleCareTypeEntity> builder)
         {
             #region FIELDS
-            builder.HasKey(a => a.VehicleInsuranceTypeId );
-            builder.Property(a => a.VehicleInsuranceTypeId).ValueGeneratedOnAdd();
+            builder.HasKey(a => a.VehicleCareTypeId);
+            builder.Property(a => a.VehicleCareTypeId).ValueGeneratedOnAdd();
 
             builder.Property(a => a.Code).HasMaxLength(12);
             builder.Property(a => a.Definition).HasMaxLength(80);
             builder.Property(a => a.DefaultPeriyodUnitCode).HasMaxLength(12);
             builder.Property(a => a.Compulsory);
+
 
             builder.Property(a => a.CreatedDate).IsRequired();
             builder.Property(a => a.UpdatedDate).IsRequired();
@@ -33,7 +34,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
 
             #region TABLE & SCHEMES
 
-            // builder.ToTable("Company","Company");
+            builder.ToTable("CareType", "Vehicle");
 
             #endregion
 
@@ -41,8 +42,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
             #region RELATIONS
 
             #endregion
-
-
         }
+
     }
 }

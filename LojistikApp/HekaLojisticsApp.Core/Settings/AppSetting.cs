@@ -39,7 +39,7 @@
 
         public static int DB_PORT { get; set; }
 
-        public static string ConnectionStrings = @"Server=DESKTOP-P18LD6G;Database=LojistikAppDB;Trusted_Connection=True;Connect Timeout = 30; MultipleActiveResultSets=True;";
+        public static string ConnectionStrings = @"Server=PRO;Database=LojistikAppDB;Trusted_Connection=True;Connect Timeout = 30; MultipleActiveResultSets=True;";
 
 
         #endregion

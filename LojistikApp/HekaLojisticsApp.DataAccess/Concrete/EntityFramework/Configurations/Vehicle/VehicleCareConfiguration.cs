@@ -9,24 +9,22 @@ using System.Threading.Tasks;
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Vehicle
 {
-    class VehicleInsuranceConfigurations : IEntityTypeConfiguration <VehicleInsuranceEntity>  
+    class VehicleCareConfiguration : IEntityTypeConfiguration<VehicleCareEntity>
     {
-
-        public void Configure(EntityTypeBuilder<VehicleInsuranceEntity> builder)
+        public void Configure(EntityTypeBuilder<VehicleCareEntity> builder)
         {
             #region FIELDS
-            builder.HasKey(a => a.VehicleInsuranceId);
-            builder.Property(a => a.VehicleInsuranceId).ValueGeneratedOnAdd();
+            builder.HasKey(a => a.VehicleCareId );
+            builder.Property(a => a.VehicleCareId).ValueGeneratedOnAdd();
 
-            builder.Property(a => a.VehicePlate).HasMaxLength(20);
-            builder.Property(a => a.InsuranceTypeCode).HasMaxLength(12);
-            builder.Property(a => a.OperationCompanyId);
-            builder.Property(a => a.StartDate);
-            builder.Property(a => a.EndDate);
-            builder.Property(a => a.KmHour);
-            builder.Property(a => a.PersonnelId);
-            builder.Property(a => a.Amount);
-            builder.Property(a => a.CurrencyCode).HasMaxLength(12);
+            builder.Property(a => a.VehiclePlate).HasMaxLength(50);
+            builder.Property(a => a.VehiceCareTypeId).HasMaxLength(50);
+            builder.Property(a => a.OperationCompanyId).HasMaxLength(50);
+            builder.Property(a => a.CareDate).HasMaxLength(50);
+            builder.Property(a => a.KmHour).HasMaxLength(50);
+            builder.Property(a => a.PersonnelId).HasMaxLength(50);
+            builder.Property(a => a.Amount).HasMaxLength(50);
+            builder.Property(a => a.CurrencyCode).HasMaxLength(50);
 
 
             builder.Property(a => a.CreatedDate).IsRequired();
@@ -39,7 +37,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
 
             #region TABLE & SCHEMES
 
-            // builder.ToTable("Company","Company");
+            builder.ToTable("Care", "Vehicle");
 
             #endregion
 
@@ -47,7 +45,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
             #region RELATIONS
 
             #endregion
-        }
 
+        }
     }
 }

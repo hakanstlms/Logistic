@@ -9,21 +9,19 @@ using System.Threading.Tasks;
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Vehicle
 {
-    class VehicleNotificationConfigurations : IEntityTypeConfiguration < VehicleNotificationEntity>     
+    class VehicleInsuranceTypeConfiguration : IEntityTypeConfiguration<VehicleInsuranceTypeEntity>   
     {
 
-        public void Configure(EntityTypeBuilder<VehicleNotificationEntity> builder)
+        public void Configure(EntityTypeBuilder<VehicleInsuranceTypeEntity> builder)
         {
             #region FIELDS
-            builder.HasKey(a => a.VehicleNotificationId);
-            builder.Property(a => a.VehicleNotificationId).ValueGeneratedOnAdd();
+            builder.HasKey(a => a.VehicleInsuranceTypeId );
+            builder.Property(a => a.VehicleInsuranceTypeId).ValueGeneratedOnAdd();
 
-            builder.Property(a => a.VehicePlate).HasMaxLength(20);
-            builder.Property(a => a.CareStep);
-            builder.Property(a => a.MailNotification);
-            builder.Property(a => a.SmsNotification);
-            builder.Property(a => a.ExtraNotification);
-
+            builder.Property(a => a.Code).HasMaxLength(12);
+            builder.Property(a => a.Definition).HasMaxLength(80);
+            builder.Property(a => a.DefaultPeriyodUnitCode).HasMaxLength(12);
+            builder.Property(a => a.Compulsory);
 
             builder.Property(a => a.CreatedDate).IsRequired();
             builder.Property(a => a.UpdatedDate).IsRequired();
@@ -35,7 +33,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
 
             #region TABLE & SCHEMES
 
-            // builder.ToTable("Company","Company");
+            builder.ToTable("InsuranceType", "Vehicle");
 
             #endregion
 
@@ -43,6 +41,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
             #region RELATIONS
 
             #endregion
+
 
         }
     }

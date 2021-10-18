@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Vehicle
 {
-    class VehicleConfigurations : IEntityTypeConfiguration<VehicleEntity>
+    class VehicleConfiguration : IEntityTypeConfiguration<VehicleEntity>
     {
         public void Configure(EntityTypeBuilder<VehicleEntity> builder)
         {
@@ -56,7 +56,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
             #endregion
 
             #region TABLE & SCHEMES
-
+            builder.ToTable( "Main", "Vehicle");
 
             #endregion
 

@@ -9,22 +9,20 @@ using System.Threading.Tasks;
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Vehicle
 {
-    class VehicleCareConfigurations : IEntityTypeConfiguration<VehicleCareEntity>
+    class VehicleNotificationConfiguration : IEntityTypeConfiguration < VehicleNotificationEntity>     
     {
-        public void Configure(EntityTypeBuilder<VehicleCareEntity> builder)
+
+        public void Configure(EntityTypeBuilder<VehicleNotificationEntity> builder)
         {
             #region FIELDS
-            builder.HasKey(a => a.VehiceCareTypeId );
-            builder.Property(a => a.VehiceCareTypeId).ValueGeneratedOnAdd();
+            builder.HasKey(a => a.VehicleNotificationId);
+            builder.Property(a => a.VehicleNotificationId).ValueGeneratedOnAdd();
 
-            builder.Property(a => a.VehiclePlate).HasMaxLength(50);
-            builder.Property(a => a.VehiceCareTypeId).HasMaxLength(50);
-            builder.Property(a => a.OperationCompanyId).HasMaxLength(50);
-            builder.Property(a => a.CareDate).HasMaxLength(50);
-            builder.Property(a => a.KmHour).HasMaxLength(50);
-            builder.Property(a => a.PersonnelId).HasMaxLength(50);
-            builder.Property(a => a.Amount).HasMaxLength(50);
-            builder.Property(a => a.CurrencyCode).HasMaxLength(50);
+            builder.Property(a => a.VehicePlate).HasMaxLength(20);
+            builder.Property(a => a.CareStep);
+            builder.Property(a => a.MailNotification);
+            builder.Property(a => a.SmsNotification);
+            builder.Property(a => a.ExtraNotification);
 
 
             builder.Property(a => a.CreatedDate).IsRequired();
@@ -37,7 +35,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
 
             #region TABLE & SCHEMES
 
-            // builder.ToTable("Company","Company");
+            builder.ToTable("Notification", "Vehicle");
 
             #endregion
 

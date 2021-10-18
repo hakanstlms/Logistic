@@ -9,19 +9,24 @@ using System.Threading.Tasks;
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Vehicle
 {
-    class VehicleCareTypeConfigurations : IEntityTypeConfiguration<VehicleCareTypeEntity>
+    class VehicleInsuranceConfiguration : IEntityTypeConfiguration <VehicleInsuranceEntity>  
     {
 
-        public void Configure(EntityTypeBuilder<VehicleCareTypeEntity> builder)
+        public void Configure(EntityTypeBuilder<VehicleInsuranceEntity> builder)
         {
             #region FIELDS
-            builder.HasKey(a => a.VehicleCareId);
-            builder.Property(a => a.VehicleCareId).ValueGeneratedOnAdd();
+            builder.HasKey(a => a.VehicleInsuranceId);
+            builder.Property(a => a.VehicleInsuranceId).ValueGeneratedOnAdd();
 
-            builder.Property(a => a.Code).HasMaxLength(12);
-            builder.Property(a => a.Definition).HasMaxLength(80);
-            builder.Property(a => a.DefaultPeriyodUnitCode).HasMaxLength(12);
-            builder.Property(a => a.Compulsory);
+            builder.Property(a => a.VehicePlate).HasMaxLength(20);
+            builder.Property(a => a.InsuranceTypeCode).HasMaxLength(12);
+            builder.Property(a => a.OperationCompanyId);
+            builder.Property(a => a.StartDate);
+            builder.Property(a => a.EndDate);
+            builder.Property(a => a.KmHour);
+            builder.Property(a => a.PersonnelId);
+            builder.Property(a => a.Amount);
+            builder.Property(a => a.CurrencyCode).HasMaxLength(12);
 
 
             builder.Property(a => a.CreatedDate).IsRequired();
@@ -34,7 +39,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
 
             #region TABLE & SCHEMES
 
-            // builder.ToTable("Company","Company");
+            builder.ToTable("Insurance", "Vehicle");
 
             #endregion
 

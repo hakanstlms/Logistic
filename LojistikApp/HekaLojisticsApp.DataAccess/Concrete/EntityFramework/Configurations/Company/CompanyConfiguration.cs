@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Company
 {
-    public class CompanyConfigurations : IEntityTypeConfiguration<CompanyEntity>
+    public class CompanyConfiguration : IEntityTypeConfiguration<CompanyEntity>
     {
         public void Configure(EntityTypeBuilder<CompanyEntity> builder)
         {

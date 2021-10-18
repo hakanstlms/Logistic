@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jzL/Nu5REeECFccel4CDjvz44Xzcpl/jGHzqqwkTf7nfMoyXPAVxOoe5BgX69Qfj+pJiV236kApkx4tcZytpUQ==",
+  "dgSpecHash": "5AI192vv9IIwgItHaTuDK71hq1jBazd4dxVsLhuo1g65ZoBbd1ctwN+l8wajhIeS7WlIwM1L4j0EzZ1kN2NWYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\halil\\source\\repos\\sshneo\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj",
+  "projectFilePath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

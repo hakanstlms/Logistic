@@ -10,11 +10,8 @@ namespace HekaLojisticsApp.Business.AutoMapper.Profiles.Order
         {
             CreateMap<OrderEntity, OrderDto>();
             CreateMap<OrderDto, OrderEntity>();
-
             CreateMap<AddOrderDto, OrderEntity>();
-
             CreateMap<UpdateOrderDto, OrderEntity>();
-
             CreateMap<ListOrderDto, OrderEntity>();
 
 

@@ -11,7 +11,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Vehicle
         #endregion
 
         #region PROPERTIES
-        public int VehicleCareId { get; set; }
+        public int VehicleCareTypeId { get; set; }
         public string Code { get; set; }
         public string Definition { get; set; }
         public PeriyodUnitCodeEnum DefaultPeriyodUnitCode { get; set; }

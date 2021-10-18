@@ -77,7 +77,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Or
 
             #region TABLE & SCHEMES
 
-            builder.ToTable("Order", "Order");
+            builder.ToTable("Order","Order");
 
             #endregion
 

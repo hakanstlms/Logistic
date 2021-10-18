@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Vehicle
 {
-    class VehiceTireConfigurations : IEntityTypeConfiguration<VehiceTireEntity>
+    class VehicleTireConfiguration : IEntityTypeConfiguration<VehicleTireEntity>
     {
-        public void Configure(EntityTypeBuilder<VehiceTireEntity> builder)
+        public void Configure(EntityTypeBuilder<VehicleTireEntity> builder)
         {
             #region FIELDS
             builder.HasKey(a => a.VehiceTireId);
@@ -42,6 +42,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Ve
             builder.Property(a => a.Description).IsRequired();
             #endregion
             #region TABLE & SCHEMES
+            builder.ToTable("Tire", "Vehicle");
 
 
             #endregion
