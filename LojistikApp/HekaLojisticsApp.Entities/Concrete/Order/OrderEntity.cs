@@ -33,7 +33,9 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         public OrderStatusCodeEnum StatusCode { get; set; }
         //yükleme Noktası Kod
         public UploadPointCodeEnum UploadPointCode { get; set; }
-        public int CompanyId { get; set; }
+        public int CustomerCompanyId { get; set; }
+        public CompanyEntity CustomerCompany { get; set; }
+
         //Gönderici Firma
         public int ShipperCompanyId { get; set; }
         public int BuyerCompanyId { get; set; }
@@ -43,7 +45,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         public decimal TotalVolume { get; set; }
         public UnitCodeEnum WeightUnitCode { get; set; }
         public UnitCodeEnum VolumeUnitCode { get; set; }
-        public decimal Amount { get; set; }
+        public decimal? Amount { get; set; }
         public decimal TotalAmount { get; set; }
         public CurrencyCodeEnum CurrencyCode { get; set; }
         public bool Closed { get; set; }
@@ -53,8 +55,8 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         //Fatura Durum Kod
         public string InvoiceStatusCode { get; set; }
         //Çıkış Gümrük Kod
-        public string ExitCustomsCode { get; set; }
-        public string EntryCustomsCode { get; set; }
+        public CustomsCodeEnum ExitCustomsCode { get; set; }
+        public CustomsCodeEnum EntryCustomsCode { get; set; }
         //Müşteri Temsilcisi
         public string CustomerRepresentative { get; set; }
         public string CustomerTitle1 { get; set; }

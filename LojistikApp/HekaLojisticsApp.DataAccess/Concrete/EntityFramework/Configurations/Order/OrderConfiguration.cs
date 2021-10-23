@@ -1,4 +1,5 @@
-﻿using HekaLojisticsApp.Entities.Concrete.Order;
+﻿using HekaLojisticsApp.Entities.Concrete.Company;
+using HekaLojisticsApp.Entities.Concrete.Order;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -22,7 +23,8 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Or
             builder.Property(a => a.TransactionDirectionCode).HasMaxLength(12);
             builder.Property(a => a.StatusCode).HasMaxLength(12);
             builder.Property(a => a.UploadPointCode).HasMaxLength(12);
-            builder.Property(a => a.CompanyId);
+            builder.HasOne<CompanyEntity>(c => c.CustomerCompany).WithMany(a => a.CompanyId).HasForeignKey(c => c.);
+            //builder.Property(a => a.CompanyId);
             builder.Property(a => a.ShipperCompanyId);
             builder.Property(a => a.BuyerCompanyId);
             builder.Property(a => a.TotalWeight);

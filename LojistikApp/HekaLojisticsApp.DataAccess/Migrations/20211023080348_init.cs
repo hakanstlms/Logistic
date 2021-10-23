@@ -10,6 +10,9 @@ namespace HekaLojisticsApp.DataAccess.Migrations
             migrationBuilder.EnsureSchema(
                 name: "Vehicle");
 
+            migrationBuilder.EnsureSchema(
+                name: "Order");
+
             migrationBuilder.CreateTable(
                 name: "Care",
                 schema: "Vehicle",
@@ -184,6 +187,7 @@ namespace HekaLojisticsApp.DataAccess.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Order",
+                schema: "Order",
                 columns: table => new
                 {
                     OrderId = table.Column<int>(type: "int", nullable: false)
@@ -204,7 +208,7 @@ namespace HekaLojisticsApp.DataAccess.Migrations
                     TotalVolume = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     WeightUnitCode = table.Column<int>(type: "int", maxLength: 12, nullable: false),
                     VolumeUnitCode = table.Column<int>(type: "int", maxLength: 12, nullable: false),
-                    Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
                     TotalAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CurrencyCode = table.Column<int>(type: "int", maxLength: 12, nullable: false),
                     Closed = table.Column<bool>(type: "bit", nullable: false),
@@ -316,7 +320,8 @@ namespace HekaLojisticsApp.DataAccess.Migrations
                 schema: "Vehicle");
 
             migrationBuilder.DropTable(
-                name: "Order");
+                name: "Order",
+                schema: "Order");
 
             migrationBuilder.DropTable(
                 name: "Tire",

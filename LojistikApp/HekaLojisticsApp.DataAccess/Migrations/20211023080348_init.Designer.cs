@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HekaLojisticsApp.DataAccess.Migrations
 {
     [DbContext(typeof(LojistikAppContext))]
-    [Migration("20211018205009_init")]
+    [Migration("20211023080348_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,7 +28,7 @@ namespace HekaLojisticsApp.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Amount")
+                    b.Property<decimal?>("Amount")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<bool>("Approval")
@@ -221,7 +221,7 @@ namespace HekaLojisticsApp.DataAccess.Migrations
 
                     b.HasKey("OrderId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Order", "Order");
                 });
 
             modelBuilder.Entity("HekaLojisticsApp.Entities.Concrete.Vehicle.VehicleCareEntity", b =>

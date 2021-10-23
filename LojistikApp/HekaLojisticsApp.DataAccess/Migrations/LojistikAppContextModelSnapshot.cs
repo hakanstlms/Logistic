@@ -26,7 +26,7 @@ namespace HekaLojisticsApp.DataAccess.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Amount")
+                    b.Property<decimal?>("Amount")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<bool>("Approval")
@@ -219,7 +219,7 @@ namespace HekaLojisticsApp.DataAccess.Migrations
 
                     b.HasKey("OrderId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Order", "Order");
                 });
 
             modelBuilder.Entity("HekaLojisticsApp.Entities.Concrete.Vehicle.VehicleCareEntity", b =>
