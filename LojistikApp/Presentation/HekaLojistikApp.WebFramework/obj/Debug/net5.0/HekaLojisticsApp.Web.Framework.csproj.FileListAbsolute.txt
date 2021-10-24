@@ -34,3 +34,14 @@ C:\git-repo\LojistikApp\LojistikApp\HekaLojistikApp.WebFramework\obj\Debug\net5.
 C:\git-repo\LojistikApp\LojistikApp\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.dll
 C:\git-repo\LojistikApp\LojistikApp\HekaLojistikApp.WebFramework\obj\Debug\net5.0\ref\HekaLojisticsApp.Web.Framework.dll
 C:\git-repo\LojistikApp\LojistikApp\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.pdb
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\bin\Debug\net5.0\HekaLojisticsApp.Web.Framework.deps.json
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\bin\Debug\net5.0\HekaLojisticsApp.Web.Framework.dll
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\bin\Debug\net5.0\ref\HekaLojisticsApp.Web.Framework.dll
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\bin\Debug\net5.0\HekaLojisticsApp.Web.Framework.pdb
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.AssemblyInfoInputs.cache
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.AssemblyInfo.cs
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.csproj.CoreCompileInputs.cache
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.dll
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\ref\HekaLojisticsApp.Web.Framework.dll
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.pdb
