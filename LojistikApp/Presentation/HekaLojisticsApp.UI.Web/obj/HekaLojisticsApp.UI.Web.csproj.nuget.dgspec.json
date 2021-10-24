@@ -1,0 +1,439 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\git-repo\\Logistic\\LojistikApp\\Presentation\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj",
+        "projectName": "HekaLojisticsApp.Business",
+        "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj",
+        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
+              },
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj"
+              },
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj",
+        "projectName": "HekaLojisticsApp.Core",
+        "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj",
+        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj",
+        "projectName": "HekaLojisticsApp.DataAccess",
+        "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "LinqKit": {
+              "target": "Package",
+              "version": "[1.1.26, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj",
+        "projectName": "HekaLojisticsApp.Dto",
+        "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj",
+        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj",
+        "projectName": "HekaLojisticsApp.Entities",
+        "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.OData.Edm": {
+              "target": "Package",
+              "version": "[7.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\git-repo\\Logistic\\LojistikApp\\Presentation\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\Presentation\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj",
+        "projectName": "HekaLojisticsApp.UI.Web",
+        "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Presentation\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj",
+        "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+        "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\Presentation\\HekaLojisticsApp.UI.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj"
+              },
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
+              },
+              "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
+                "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\Libraries\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

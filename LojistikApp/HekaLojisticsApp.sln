@@ -11,21 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6309A95C-AF03-4CB5-B51C-3A8BFAB28D27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.DataAccess", "HekaLojisticsApp.DataAccess\HekaLojisticsApp.DataAccess.csproj", "{7FC0F208-8796-47AB-AAB7-909672C2B990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.DataAccess", "Libraries\HekaLojisticsApp.DataAccess\HekaLojisticsApp.DataAccess.csproj", "{7FC0F208-8796-47AB-AAB7-909672C2B990}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Business", "HekaLojisticsApp.Business\HekaLojisticsApp.Business.csproj", "{94DCE2C7-2246-45E4-844D-ACF2F3BC63F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Business", "Libraries\HekaLojisticsApp.Business\HekaLojisticsApp.Business.csproj", "{94DCE2C7-2246-45E4-844D-ACF2F3BC63F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Dto", "HekaLojisticsApp.Dto\HekaLojisticsApp.Dto.csproj", "{5496B8EC-8997-41E6-A60D-C470FA841CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Dto", "Libraries\HekaLojisticsApp.Dto\HekaLojisticsApp.Dto.csproj", "{5496B8EC-8997-41E6-A60D-C470FA841CDF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Entities", "HekaLojisticsApp.Entities\HekaLojisticsApp.Entities.csproj", "{0871D1E3-5B88-4C3F-A194-7297BF936EB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Entities", "Libraries\HekaLojisticsApp.Entities\HekaLojisticsApp.Entities.csproj", "{0871D1E3-5B88-4C3F-A194-7297BF936EB4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Core", "HekaLojisticsApp.Core\HekaLojisticsApp.Core.csproj", "{D31CBB78-EE87-4402-AD6D-80A5FAF60352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HekaLojisticsApp.Core", "Libraries\HekaLojisticsApp.Core\HekaLojisticsApp.Core.csproj", "{D31CBB78-EE87-4402-AD6D-80A5FAF60352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.Web.Framework", "HekaLojistikApp.WebFramework\HekaLojisticsApp.Web.Framework.csproj", "{D8F41A0A-ECAF-41C6-AE53-CD0E8176598E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.Web.Framework", "Presentation\HekaLojistikApp.WebFramework\HekaLojisticsApp.Web.Framework.csproj", "{D8F41A0A-ECAF-41C6-AE53-CD0E8176598E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.UI.Web", "HekaLojisticsApp.UI.Web\HekaLojisticsApp.UI.Web.csproj", "{26DBB566-280C-4F73-92B4-C9BDABCB74F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.UI.Web", "Presentation\HekaLojisticsApp.UI.Web\HekaLojisticsApp.UI.Web.csproj", "{26DBB566-280C-4F73-92B4-C9BDABCB74F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.UI.WebAPI", "HekaLojisticsApp.UI.WebAPI\HekaLojisticsApp.UI.WebAPI.csproj", "{EF04A97E-9B59-49D6-9AF6-01AE41568653}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HekaLojisticsApp.UI.WebAPI", "Presentation\HekaLojisticsApp.UI.WebAPI\HekaLojisticsApp.UI.WebAPI.csproj", "{EF04A97E-9B59-49D6-9AF6-01AE41568653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
