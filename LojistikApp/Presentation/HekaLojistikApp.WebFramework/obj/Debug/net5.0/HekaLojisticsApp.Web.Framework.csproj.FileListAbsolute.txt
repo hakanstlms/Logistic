@@ -45,3 +45,4 @@ C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\D
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.dll
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\ref\HekaLojisticsApp.Web.Framework.dll
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.pdb
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojistikApp.WebFramework\obj\Debug\net5.0\HekaLojisticsApp.Web.Framework.csproj.AssemblyReference.cache

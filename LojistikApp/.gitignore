@@ -390,37 +390,29 @@ FodyWeavers.xsd
 
 
 
-HekaLojisticsApp\.vs\*
-HekaLojisticsApp.Business\bin\Debug\*
-HekaLojisticsApp.Business\obj\Debug\*
-
-LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\*
-LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\*
+HekaLojisticsApp/.vs/*
+LojistikApp/Libraries/HekaLojisticsApp.Business/bin/Debug/*
+LojistikApp/Libraries/HekaLojisticsApp.Business/obj/Debug/*
 
 
-HekaLojisticsApp.UI.Web\obj\Debug\*
-HekaLojisticsApp.UI.Web\obj\Debug\*
+LojistikApp/Presentation/HekaLojisticsApp.UI.Web/obj/Debug/*
+LojistikApp/Presentation/HekaLojisticsApp.UI.Web/obj/Debug/*
 
-HekaLojisticsApp.Core\bin\Debug\*
-HekaLojisticsApp.Core\obj\Debug\*
+LojistikApp/Libraries/HekaLojisticsApp.Core/bin/Debug/*
+LojistikApp/Libraries/HekaLojisticsApp.Core/obj/Debug/*
 
-HekaLojisticsApp.DataAccess\bin\Debug\*
-HekaLojisticsApp.DataAccess\obj\Debug\*
+LojistikApp/Libraries/HekaLojisticsApp.DataAccess/bin/Debug/*
+LojistikApp/Libraries/HekaLojisticsApp.DataAccess/obj/Debug/*
 
-HekaLojisticsApp.Dto\bin\Debug\*
-HekaLojisticsApp.Dto\obj\Debug\*
+LojistikApp/Libraries/HekaLojisticsApp.Dto/bin/Debug/*
+LojistikApp/Libraries/HekaLojisticsApp.Dto/obj/Debug/*
 
-HekaLojisticsApp.Entities\bin\Debug\*
-HekaLojisticsApp.Entities\obj\Debug\*
+LojistikApp/Libraries/HekaLojisticsApp.Entities/bin/Debug/*
+LojistikApp/Libraries/HekaLojisticsApp.Entities/obj/Debug/*
 
 
-HekaLojisticsApp.UI.Web\bin\Debug\*
-HekaLojisticsApp.UI.Web\obj\Debug\*
+LojistikApp/Presentation/HekaLojisticsApp.UI.WebAPI/obj/Debug/*
+LojistikApp/Presentation/HekaLojisticsApp.UI.WebAPI/bin/Debug/*
 
-HekaLojisticsApp.UI.WebAPI\obj\Debug\*
-HekaLojisticsApp.UI.WebAPI\bin\Debug\*
-
-HekaLojistikApp.WebFramework\obj\Debug\*
-HekaLojistikApp.WebFramework\bin\Debug\*
-
-HekaLojisticsApp.Business\bin\Debug\*
+LojistikApp/Presentation/HekaLojistikApp.WebFramework/obj/Debug/*
+LojistikApp/Presentation/HekaLojistikApp.WebFramework/bin/Debug/*

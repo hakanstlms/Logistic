@@ -131,7 +131,6 @@ C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Deb
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\staticwebassets\HekaLojisticsApp.UI.WebAPI.StaticWebAssets.Manifest.cache
-C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\staticwebassets\HekaLojisticsApp.UI.WebAPI.StaticWebAssets.xml
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\scopedcss\bundle\HekaLojisticsApp.UI.WebAPI.styles.css
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.RazorTargetAssemblyInfo.cache
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.dll
@@ -139,3 +138,5 @@ C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Deb
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.pdb
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.genruntimeconfig.cache
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.csproj.CopyComplete
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\bin\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.StaticWebAssets.xml
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.WebAPI\obj\Debug\net5.0\HekaLojisticsApp.UI.WebAPI.csproj.AssemblyReference.cache

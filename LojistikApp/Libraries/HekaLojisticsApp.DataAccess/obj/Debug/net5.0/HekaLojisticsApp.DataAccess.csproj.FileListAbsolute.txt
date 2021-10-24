@@ -117,3 +117,4 @@ C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.DataAccess\obj\Debug
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.DataAccess\obj\Debug\net5.0\ref\HekaLojisticsApp.DataAccess.dll
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.DataAccess\obj\Debug\net5.0\HekaLojisticsApp.DataAccess.pdb
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.DataAccess\obj\Debug\net5.0\HekaLojisticsApp.DataAccess.genruntimeconfig.cache
+C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.DataAccess\obj\Debug\net5.0\HekaLojisticsApp.DataAccess.csproj.CopyComplete

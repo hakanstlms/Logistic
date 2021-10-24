@@ -123,3 +123,4 @@ C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Business\obj\Debug\n
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.dll
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Business\obj\Debug\net5.0\ref\HekaLojisticsApp.Business.dll
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.pdb
+C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Business\obj\Debug\net5.0\HekaLojisticsApp.Business.csproj.CopyComplete

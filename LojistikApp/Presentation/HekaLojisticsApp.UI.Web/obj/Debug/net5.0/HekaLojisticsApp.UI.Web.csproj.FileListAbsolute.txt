@@ -3142,7 +3142,6 @@ C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\bin\Debug\
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.DataAccess.pdb
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.Entities.pdb
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\staticwebassets\HekaLojisticsApp.UI.Web.StaticWebAssets.Manifest.cache
-C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\staticwebassets\HekaLojisticsApp.UI.Web.StaticWebAssets.xml
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\scopedcss\bundle\HekaLojisticsApp.UI.Web.styles.css
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.TagHelpers.input.cache
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.TagHelpers.output.cache
@@ -3170,3 +3169,4 @@ C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\ref\HekaLojisticsApp.UI.Web.dll
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.pdb
 C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.genruntimeconfig.cache
+C:\git-repo\Logistic\LojistikApp\Presentation\HekaLojisticsApp.UI.Web\bin\Debug\net5.0\HekaLojisticsApp.UI.Web.StaticWebAssets.xml

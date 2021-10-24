@@ -87,3 +87,4 @@ C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Dto\obj\Debug\net5.0
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.dll
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Dto\obj\Debug\net5.0\ref\HekaLojisticsApp.Dto.dll
 C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.pdb
+C:\git-repo\Logistic\LojistikApp\Libraries\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.csproj.CopyComplete
