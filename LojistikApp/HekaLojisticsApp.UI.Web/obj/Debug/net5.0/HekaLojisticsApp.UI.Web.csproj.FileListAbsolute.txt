@@ -1784,3 +1784,4 @@ C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLo
 C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\ref\HekaLojisticsApp.UI.Web.dll
 C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.pdb
 C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\HekaLojisticsApp.UI.Web.genruntimeconfig.cache
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.UI.Web\obj\Debug\net5.0\Razor\Areas\Secure\Views\Order\t.cshtml.g.cs
