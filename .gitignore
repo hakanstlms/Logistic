@@ -391,3 +391,31 @@ FodyWeavers.xsd
 
 
 HekaLojisticsApp/.vs/*
+LojistikApp/.vs/HekaLojisticsApp/v16/.suo
+LojistikApp/Libraries/HekaLojisticsApp.Business/obj/HekaLojisticsApp.Business.csproj.nuget.dgspec.json
+LojistikApp/Libraries/HekaLojisticsApp.Business/obj/HekaLojisticsApp.Business.csproj.nuget.g.props
+LojistikApp/Libraries/HekaLojisticsApp.Business/obj/project.assets.json
+LojistikApp/Libraries/HekaLojisticsApp.Core/obj/HekaLojisticsApp.Core.csproj.nuget.dgspec.json
+LojistikApp/Libraries/HekaLojisticsApp.Core/obj/HekaLojisticsApp.Core.csproj.nuget.g.props
+LojistikApp/Libraries/HekaLojisticsApp.Core/obj/project.assets.json
+LojistikApp/Libraries/HekaLojisticsApp.DataAccess/obj/HekaLojisticsApp.DataAccess.csproj.nuget.dgspec.json
+LojistikApp/Libraries/HekaLojisticsApp.DataAccess/obj/HekaLojisticsApp.DataAccess.csproj.nuget.g.props
+LojistikApp/Libraries/HekaLojisticsApp.DataAccess/obj/project.assets.json
+LojistikApp/Libraries/HekaLojisticsApp.Dto/obj/HekaLojisticsApp.Dto.csproj.nuget.dgspec.json
+LojistikApp/Libraries/HekaLojisticsApp.Dto/obj/HekaLojisticsApp.Dto.csproj.nuget.g.props
+LojistikApp/Libraries/HekaLojisticsApp.Dto/obj/project.assets.json
+LojistikApp/Libraries/HekaLojisticsApp.Entities/obj/HekaLojisticsApp.Entities.csproj.nuget.dgspec.json
+LojistikApp/Libraries/HekaLojisticsApp.Entities/obj/HekaLojisticsApp.Entities.csproj.nuget.g.props
+LojistikApp/Libraries/HekaLojisticsApp.Entities/obj/project.assets.json
+LojistikApp/Presentation/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/apphost.exe
+LojistikApp/Presentation/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/HekaLojisticsApp.UI.Web.Views.dll
+LojistikApp/Presentation/HekaLojisticsApp.UI.Web/obj/HekaLojisticsApp.UI.Web.csproj.nuget.dgspec.json
+LojistikApp/Presentation/HekaLojisticsApp.UI.Web/obj/HekaLojisticsApp.UI.Web.csproj.nuget.g.props
+LojistikApp/Presentation/HekaLojisticsApp.UI.Web/obj/project.assets.json
+LojistikApp/Presentation/HekaLojisticsApp.UI.WebAPI/obj/Debug/net5.0/apphost.exe
+LojistikApp/Presentation/HekaLojisticsApp.UI.WebAPI/obj/HekaLojisticsApp.UI.WebAPI.csproj.nuget.dgspec.json
+LojistikApp/Presentation/HekaLojisticsApp.UI.WebAPI/obj/HekaLojisticsApp.UI.WebAPI.csproj.nuget.g.props
+LojistikApp/Presentation/HekaLojisticsApp.UI.WebAPI/obj/project.assets.json
+LojistikApp/Presentation/HekaLojistikApp.WebFramework/obj/HekaLojisticsApp.Web.Framework.csproj.nuget.dgspec.json
+LojistikApp/Presentation/HekaLojistikApp.WebFramework/obj/HekaLojisticsApp.Web.Framework.csproj.nuget.g.props
+LojistikApp/Presentation/HekaLojistikApp.WebFramework/obj/project.assets.json
