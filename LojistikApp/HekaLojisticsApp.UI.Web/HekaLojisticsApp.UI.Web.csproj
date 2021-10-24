@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HekaLojisticsApp.Business\HekaLojisticsApp.Business.csproj" />
     <ProjectReference Include="..\HekaLojisticsApp.Core\HekaLojisticsApp.Core.csproj" />
     <ProjectReference Include="..\HekaLojisticsApp.Dto\HekaLojisticsApp.Dto.csproj" />
   </ItemGroup>

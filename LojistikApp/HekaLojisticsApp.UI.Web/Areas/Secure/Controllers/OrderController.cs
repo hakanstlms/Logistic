@@ -1,4 +1,5 @@
-﻿using HekaLojisticsApp.UI.Web.Areas.Secure.Base;
+﻿using HekaLojisticsApp.Business.Abstract.Order;
+using HekaLojisticsApp.UI.Web.Areas.Secure.Base;
 using HekaLojisticsApp.UI.Web.Filters;
 using HekaLojisticsApp.UI.Web.Models.Order;
 using Microsoft.AspNetCore.Mvc;
@@ -9,12 +10,14 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
     {
 
         #region FIELDS
+
+        private readonly IOrderService _orderService;
         #endregion
 
         #region CTOR
-        public OrderController()
+        public OrderController(IOrderService orderService)
         {
-
+  
         }
         #endregion
 
@@ -23,6 +26,7 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
         #region LIST
         public IActionResult Index()
         {
+ 
             return View();
         }
         #endregion
@@ -48,7 +52,14 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
         public IActionResult CreateOrder()
         {
 
-            return View();
+            OrderViewModel orderViewModel = new OrderViewModel
+            {
+                
+
+            };
+
+
+            return View(orderViewModel);
 
         }
 
@@ -66,10 +77,7 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
 
         public IActionResult DeleteOrder(int id)
         {
-
             return View();
-
-
         }
 
         #endregion
@@ -86,9 +94,6 @@ namespace HekaLojisticsApp.UI.Web.Areas.Secure.Controllers
 
 
         #endregion
-
-
-
 
         #region METHODS
         #endregion

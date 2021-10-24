@@ -33,9 +33,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         public OrderStatusCodeEnum StatusCode { get; set; }
         //yükleme Noktası Kod
         public UploadPointCodeEnum UploadPointCode { get; set; }
-        public int CustomerCompanyId { get; set; }
-        public CompanyEntity CustomerCompany { get; set; }
-
+        public int CompanyId { get; set; }
         //Gönderici Firma
         public int ShipperCompanyId { get; set; }
         public int BuyerCompanyId { get; set; }
@@ -45,7 +43,7 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         public decimal TotalVolume { get; set; }
         public UnitCodeEnum WeightUnitCode { get; set; }
         public UnitCodeEnum VolumeUnitCode { get; set; }
-        public decimal? Amount { get; set; }
+        public decimal Amount { get; set; }
         public decimal TotalAmount { get; set; }
         public CurrencyCodeEnum CurrencyCode { get; set; }
         public bool Closed { get; set; }
@@ -55,34 +53,9 @@ namespace HekaLojisticsApp.Entities.Concrete.Order
         //Fatura Durum Kod
         public string InvoiceStatusCode { get; set; }
         //Çıkış Gümrük Kod
-        public CustomsCodeEnum ExitCustomsCode { get; set; }
-        public CustomsCodeEnum EntryCustomsCode { get; set; }
-        //Müşteri Temsilcisi
-        public string CustomerRepresentative { get; set; }
-        public string CustomerTitle1 { get; set; }
-        public string CustomerTitle2 { get; set; }
-        public string CustomerAddress1 { get; set; }
-        public string CustomerAddress2 { get; set; }
-        public string CustomerDistrictId { get; set; }
-        public string CustomerCityId { get; set; }
-        public string CustomerCountryId { get; set; }
-        public string CustomerTaxOffice { get; set; }
-        public string CustomerTaxNumber { get; set; }
-        public string CustomerNumber { get; set; }
-        public string CustomerFax { get; set; }
-        public string BuyerRepresentative { get; set; }
-        public string BuyerCustomerTitle1 { get; set; }
-        public string BuyerCustomerTitle2 { get; set; }
-        public string BuyerCustomerAddress1 { get; set; }
-        public string BuyerCustomerAddress2 { get; set; }
-        public string BuyerCustomerDistrictId { get; set; }
-        public string BuyerCustomerCityId { get; set; }
-        public string BuyerCustomerCountryId { get; set; }
-        public int BuyerCustomerTaxOffice { get; set; }
-        public int BuyerCustomerTaxNumber { get; set; }
-        public int BuyerCustomerNumber { get; set; }
-        public int BuyerCustomerFax { get; set; }
-        public int CurrencyKod { get; set; }
+        public ExitCustomsCodeEnum ExitCustomsCode { get; set; }
+        public ExitCustomsCodeEnum EntryCustomsCode { get; set; }
+       
         //Kur
         public int Rate { get; set; }
         public DateTime RateDate { get; set; }

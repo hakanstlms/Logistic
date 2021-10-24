@@ -1,26 +1,462 @@
 ﻿@model HekaLojisticsApp.UI.Web.Models.Order.OrderViewModel
-
+@using HekaLojisticsApp.Core.Enum.Codes
 
 @{
     Layout = "_Layout";
 }
 
-<h1>CreateOrder</h1>
 
-<h4>OrderViewModel</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="CreateOrder">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Sipariş</h1>
             </div>
-        </form>
-    </div>
-</div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
+                    <li class="breadcrumb-item active">Sipariş Ekleme Formu</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+     
+        <div class="card card-default">
+            <div class="card-header">
+                <h3 class="card-title"><button type="button" class="btn btn-block btn-primary"><i class="fas fa-plus"></i> Yeni Ekle</button></h3>
+
+
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6" data-select2-id="29">
+
+
+                        <div class="card">
+
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Sipariş Günü:</label>
+                                            <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                                                <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate">
+                                                <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="bootstrap-timepicker">
+                                            <div class="form-group">
+                                                <label>Sipariş Saati:</label>
+
+                                                <div class="input-group date" id="timepicker" data-target-input="nearest">
+                                                    <input type="text" class="form-control datetimepicker-input" data-target="#timepicker">
+                                                    <div class="input-group-append" data-target="#timepicker" data-toggle="datetimepicker">
+                                                        <div class="input-group-text"><i class="far fa-clock"></i></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Yükleme Tarihi:</label>
+                                            <div class="input-group date" id="YuklemeTarihi" data-target-input="nearest">
+                                                <input type="text" class="form-control datetimepicker-input" data-target="#YuklemeTarihi" />
+                                                <div class="input-group-append" data-target="#YuklemeTarihi" data-toggle="datetimepicker">
+                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Son Teslim Tarihi:</label>
+                                            <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                                                <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" />
+                                                <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+
+                                    
+
+                                    
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Yükleme Tip Kod</label>
+
+                                            <select id="YuklemeTipkod" class="form-control">
+                                                <option>Grupaj</option>
+                                                <option>Komple</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>İşlem Yön Kod</label>
+
+                                            <select id="IslemYonKod" class="form-control">
+                                                <option>Türkiyeden Yurtdışına Mal Hizmet Çıkışı</option>
+                                                <option>Türkiyeye Yurtdışından Mal Hizmet Girişi</option>
+                                            </select>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <div class="form-group">
+                                        <label>Yükleme Noktası</label>
+                                        <select id="YuklemeNoktasi" class="form-control">
+                                            <option>Müşteriden</option>
+                                            <option>Depodan</option>
+
+
+                                        </select>
+                                    </div>
+
+                                
+
+                                    <div class="form-group">
+                                        <label>Müşteri</label>
+                                        <select id="Musteri" class="form-control">
+                                            <option>Koç Yatırım A.Ş.</option>
+                                            <option>Sabancı Global A.Ş.</option>
+
+
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Gönderici Firma</label>
+                                        <select id="GondericiFirma" class="form-control">
+                                            <option>Koç Yatırım A.Ş.</option>
+                                            <option>Sabancı Global A.Ş.</option>
+
+
+                                        </select>
+                                    </div>
+
+
+
+                                </div>
+                        
+                        </div>
+                      
+
+                    </div>
+                 
+                    <div class="col-md-6">
+                        <div class="card">
+
+                            <div class="card-body">
+
+                                <div class="form-group">
+                                    <label>Durum</label>
+                                    <select class="form-control">
+                                        <option>Teyit Bekliyor</option>
+                                        <option>Planlamada</option>
+                                        <option>Kesin Değil</option>
+
+                                    </select>
+
+
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <label>Toplam Ağrlık Birimi</label>
+                                                <select id="ToplamAgirlikBirimi" class="form-control">
+                                                    <option>Metre</option>
+                                                    <option>Kg</option>
+
+
+                                                </select>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Toplam Ağırlık</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Toplam Ağırlık">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <label>Toplam Hacim Birimi</label>
+                                                <select id="TotalVolume" class="form-control">
+                                                    <option>Ton</option>
+                                                    <option>Metre Küp</option>
+
+
+                                                </select>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Toplam Hacim</label>
+                                            <input type="text" class="form-control" id="TotalVolume" placeholder="Toplam Hacim">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <label>Tutar</label>
+                                                <input type="text" class="form-control" id="TotalAmount" placeholder="Tutar">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Toplam Utar</label>
+                                            <input type="text" class="form-control" id="TotalAmount" placeholder="Toplam Tutar">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <label>Gümrük Giriş Kodu</label>
+                                                <select id="EntryCustomsCode" class="form-control">
+                                                    <option>Avrupa Serbest Bölgesi</option>
+
+                                                </select>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Gümrük Çıkış Kodu</label>
+                                            <select asp-for="CurrencyCode" class="form-control" asp-items="Html.GetEnumSelectList<CurrencyCodeEnum>()"></select>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                
+
+
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                        <div class="form-group">
+                                            <label>Döviz Birmi</label>
+
+                                            <select asp-for="CurrencyCode" class="form-control" asp-items="Html.GetEnumSelectList<CurrencyCodeEnum>()"></select>
+
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-md-6">
+
+                                        <div class="form-group">
+                                            <label>Döviz Kuru:</label>
+
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <i class="fas fa-lira-sign"></i>
+                                                    </span>
+                                                </div>
+                                                <input type="text" class="form-control float-right" id="CurrencyCode">
+                                            </div>
+                                            <!-- /.input group -->
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="card-footer">
+
+                                <div class="row">
+
+                                    <div class="col-md-8">
+                                    </div>
+                                    <div class="col-md-2">
+
+                                        <button type="button" class="btn btn-block btn-danger"><i class="fas fa-window-close"></i> Vazgeç</button>
+
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <button type="button" class="btn btn-block btn-success pull-right"><i class="fas fa-save"></i> Kaydet</button>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+</section>
+<!-- /.content -->
+
+
+
+
+
+#<!-- #CSS -->
+@section selectCss{
+
+    <link rel="stylesheet" href="~/plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="~/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+
+}
+<!-- #endregion -->
+
+
+@section dateTimeScripts {
+    <script src="~/plugins/select2/js/select2.full.min.js"></script>
+
+    <script src="~/plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+
+    <script src="~/plugins/moment/moment.min.js"></script>
+    <script src="~/plugins/inputmask/jquery.inputmask.min.js"></script>
+
+    <script src="~/plugins/daterangepicker/daterangepicker.js"></script>
+
+    <script src="~/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script src="~/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+
+    <script src="~/plugins/bs-stepper/js/bs-stepper.min.js"></script>
+
+    <script src="~/plugins/dropzone/min/dropzone.min.js"></script>
+    <script>
+
+        $(function () {
+
+            //Initialize Select2 Elements
+            $('.select2').select2()
+
+            //Initialize Select2 Elements
+            $('.select2bs4').select2({
+                theme: 'bootstrap4'
+            })
+
+
+            //Date picker
+            $('#reservationdate').datetimepicker({
+                format: 'DD-MM-YYYY',
+                isRTL: false,
+                locale: moment().local('tr'),
+                autoclose: true,
+
+
+
+            });
+
+
+            $('#YuklemeTarihi').datetimepicker({
+                maxDate: moment(),
+                allowInputToggle: true,
+                enabledHours: false,
+                locale: 'tr',
+                format: 'DD-MM-YYYY',
+                language: 'tr',
+            });
+
+
+
+        })
+
+
+    </script>
+
+}
+
 

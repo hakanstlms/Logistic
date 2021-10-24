@@ -7,6 +7,7 @@ using HekaLojisticsApp.Core.Tools.Result.Abstract;
 using HekaLojisticsApp.Core.Tools.Result.Concrete;
 using HekaLojisticsApp.DataAccess.Concrete.UnitOfWork;
 using HekaLojisticsApp.Dto.Order;
+using System.Collections.Generic;
 
 namespace HekaLojisticsApp.Business.Concrete.Order
 {
@@ -47,14 +48,14 @@ namespace HekaLojisticsApp.Business.Concrete.Order
         public IDataResult<ListOrderDto> GetAll()
         {
             var orders = UnitOfWork.Order.GetAll(null);
-            var ordersDto = Mapper.Map<ListOrderDto>(orders);
+            var ordersDto = Mapper.Map<IList<OrderDto>>(orders);
 
 
             if (orders.Count > -1)
             {
                 return new DataResult<ListOrderDto>(ResultStatusEnum.Success, new ListOrderDto
                 {
-                    //Orders =IList<ordersDto>,
+                    Orders       =   ordersDto,
                     ResultStatus = ResultStatusEnum.Success
                 });
             }

@@ -1,5 +1,4 @@
-﻿using HekaLojisticsApp.Entities.Concrete.Company;
-using HekaLojisticsApp.Entities.Concrete.Order;
+﻿using HekaLojisticsApp.Entities.Concrete.Order;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -23,8 +22,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Or
             builder.Property(a => a.TransactionDirectionCode).HasMaxLength(12);
             builder.Property(a => a.StatusCode).HasMaxLength(12);
             builder.Property(a => a.UploadPointCode).HasMaxLength(12);
-            builder.HasOne<CompanyEntity>(c => c.CustomerCompany).WithMany(a => a.CompanyId).HasForeignKey(c => c.);
-            //builder.Property(a => a.CompanyId);
+            builder.Property(a => a.CompanyId);
             builder.Property(a => a.ShipperCompanyId);
             builder.Property(a => a.BuyerCompanyId);
             builder.Property(a => a.TotalWeight);
@@ -41,30 +39,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Or
             builder.Property(a => a.InvoiceStatusCode).HasMaxLength(12);
             builder.Property(a => a.ExitCustomsCode).HasMaxLength(12);
             builder.Property(a => a.EntryCustomsCode).HasMaxLength(12);
-            builder.Property(a => a.CustomerRepresentative);
-            builder.Property(a => a.CustomerTitle1);
-            builder.Property(a => a.CustomerTitle2);
-            builder.Property(a => a.CustomerAddress1);
-            builder.Property(a => a.CustomerAddress2);
-            builder.Property(a => a.CustomerDistrictId);
-            builder.Property(a => a.CustomerCityId);
-            builder.Property(a => a.CustomerCountryId);
-            builder.Property(a => a.CustomerTaxOffice);
-            builder.Property(a => a.CustomerTaxNumber);
-            builder.Property(a => a.CustomerNumber);
-            builder.Property(a => a.CustomerFax);
-            builder.Property(a => a.BuyerRepresentative);
-            builder.Property(a => a.BuyerCustomerTitle1);
-            builder.Property(a => a.BuyerCustomerTitle2);
-            builder.Property(a => a.BuyerCustomerAddress1);
-            builder.Property(a => a.BuyerCustomerAddress2);
-            builder.Property(a => a.BuyerCustomerDistrictId);
-            builder.Property(a => a.BuyerCustomerCityId);
-            builder.Property(a => a.BuyerCustomerCountryId);
-            builder.Property(a => a.BuyerCustomerTaxOffice);
-            builder.Property(a => a.BuyerCustomerTaxNumber);
-            builder.Property(a => a.BuyerCustomerNumber);
-            builder.Property(a => a.BuyerCustomerFax);
+ 
             builder.Property(a => a.Rate);
             builder.Property(a => a.RateDate);
 
@@ -79,7 +54,7 @@ namespace HekaLojisticsApp.DataAccess.Concrete.EntityFramework.Configurations.Or
 
             #region TABLE & SCHEMES
 
-            builder.ToTable("Order","Order");
+            builder.ToTable("Order", "Order");
 
             #endregion
 

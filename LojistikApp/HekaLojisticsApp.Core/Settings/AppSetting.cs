@@ -1,4 +1,6 @@
-﻿namespace HekaLojisticsApp.Core.Settings
+﻿using System.Reflection;
+
+namespace HekaLojisticsApp.Core.Settings
 {
     public static class AppSetting
     {
@@ -10,7 +12,16 @@
         #region PRODUCT INFORMATION
         public static string PRODUCT_NAME { get; set; }
 
-        public static string PRODUCT_VERSION { get; set; }
+      //  public static string PRODUCT_VERSION { get; set; }
+
+        public static string PRODUCT_VERSION
+        {
+            get
+            {
+                return  Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            }
+        }
+
 
         public static string PRODUCT_LOGO_URL { get; set; }
         #endregion
@@ -26,9 +37,13 @@
 
         #endregion
 
-        public static string URL { get; set; }
+        public static string URL {get; } = "http://localhost:42151";
 
-        public static bool IS_SSL { get; set; }
+        public static string PORT { get; set; } = ":42151";
+
+        public static bool IS_SSL { get; set; } = false;
+
+        public static string CopyRightText { get; } = "Copyright © 2021-2022. lojistikapp.io. All rights reserved.";
 
 
 
@@ -39,7 +54,7 @@
 
         public static int DB_PORT { get; set; }
 
-        public static string ConnectionStrings = @"Server=PRO;Database=LojistikAppDB;Trusted_Connection=True;Connect Timeout = 30; MultipleActiveResultSets=True;";
+        public static string ConnectionStrings = @"Server=DESKTOP-P18LD6G;Database=LojistikAppDB;Trusted_Connection=True;Connect Timeout = 30; MultipleActiveResultSets=True;";
 
 
         #endregion
@@ -73,9 +88,7 @@
         #endregion
 
         #endregion
-
-         
-
+ 
         #region METHODS
         #endregion
 

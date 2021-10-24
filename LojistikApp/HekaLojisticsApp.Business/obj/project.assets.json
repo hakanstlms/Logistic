@@ -6312,20 +6312,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pro\\.nuget\\packages\\": {}
+    "C:\\Users\\halil\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj",
+      "projectUniqueName": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj",
       "projectName": "HekaLojisticsApp.Business",
-      "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj",
-      "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
-      "outputPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Business\\obj\\",
+      "projectPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.Business\\HekaLojisticsApp.Business.csproj",
+      "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.Business\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6338,14 +6343,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
-              "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
+            "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj": {
+              "projectPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.Core\\HekaLojisticsApp.Core.csproj"
             },
-            "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj": {
-              "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj"
+            "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj"
             },
-            "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
-              "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj"
+            "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj": {
+              "projectPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.Dto\\HekaLojisticsApp.Dto.csproj"
             }
           }
         }
@@ -6380,7 +6385,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
