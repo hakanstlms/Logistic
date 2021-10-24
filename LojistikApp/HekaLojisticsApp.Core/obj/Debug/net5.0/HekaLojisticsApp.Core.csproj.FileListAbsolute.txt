@@ -40,3 +40,17 @@ C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLoji
 C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.dll
 C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\ref\HekaLojisticsApp.Core.dll
 C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.pdb
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\bin\Debug\net5.0\HekaLojisticsApp.Core.deps.json
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\bin\Debug\net5.0\HekaLojisticsApp.Core.dll
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\bin\Debug\net5.0\ref\HekaLojisticsApp.Core.dll
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\bin\Debug\net5.0\HekaLojisticsApp.Core.pdb
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.csproj.AssemblyReference.cache
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.AppMessages.Order.OrderResource.resources
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.csproj.GenerateResource.cache
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.AssemblyInfoInputs.cache
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.AssemblyInfo.cs
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.csproj.CoreCompileInputs.cache
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.dll
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\ref\HekaLojisticsApp.Core.dll
+C:\git-repo\LojistikApp\LojistikApp\HekaLojisticsApp.Core\obj\Debug\net5.0\HekaLojisticsApp.Core.pdb
