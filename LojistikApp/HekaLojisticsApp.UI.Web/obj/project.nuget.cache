@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MOWy4sMKeIqzsAKqsJoIFhcdvUOLADgnxUgb01uBOWmJUtt1zbm4AP46ECavjYQ6DLsHxK9IFgJSEu2XJrCJvA==",
+  "dgSpecHash": "mTqOaExtPgXRdZijLjtfDMY+4a1ZyMoQ4t5aG1SBfRHN0/ZIzwo7kRB+7c7w6YpvwBoRIQGGiqjG7ST3HNzzdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj",
+  "projectFilePath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.Web\\HekaLojisticsApp.UI.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halil\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

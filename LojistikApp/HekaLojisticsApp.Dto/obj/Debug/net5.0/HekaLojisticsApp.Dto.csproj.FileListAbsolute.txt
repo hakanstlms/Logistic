@@ -28,3 +28,18 @@ C:\Users\halil\OneDrive\Masaüstü\Yeni klasör\Logistic\LojistikApp\HekaLojisti
 C:\Users\halil\OneDrive\Masaüstü\Yeni klasör\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.dll
 C:\Users\halil\OneDrive\Masaüstü\Yeni klasör\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\ref\HekaLojisticsApp.Dto.dll
 C:\Users\halil\OneDrive\Masaüstü\Yeni klasör\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.pdb
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\HekaLojisticsApp.Dto.deps.json
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\HekaLojisticsApp.Dto.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\ref\HekaLojisticsApp.Dto.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\HekaLojisticsApp.Dto.pdb
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\HekaLojisticsApp.Core.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\bin\Debug\net5.0\HekaLojisticsApp.Core.pdb
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.csproj.AssemblyReference.cache
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.AssemblyInfoInputs.cache
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.AssemblyInfo.cs
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.csproj.CoreCompileInputs.cache
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.csproj.CopyComplete
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\ref\HekaLojisticsApp.Dto.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Dto\obj\Debug\net5.0\HekaLojisticsApp.Dto.pdb

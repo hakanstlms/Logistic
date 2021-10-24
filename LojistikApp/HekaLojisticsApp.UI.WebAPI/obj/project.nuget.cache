@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9xJF1K5nt21lva3LI+NIpM4jNsTj7oTYmQe0MmJUBXuy8lDMDaF+yK1wpr8CjBFuPvkBI1YuPvnFDlJHHyhT/A==",
+  "dgSpecHash": "25OoTd5Th+Vfa5dgReIX+UTpc146I4zAVGSd0LrkfTkNMrqwUHDqbvCfaTRF17YExk+BO2bvIzOxwFi1CX6HpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
+  "projectFilePath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halil\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

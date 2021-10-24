@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojistikApp.WebFramework\\HekaLojisticsApp.Web.Framework.csproj",
+      "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojistikApp.WebFramework\\HekaLojisticsApp.Web.Framework.csproj",
       "projectName": "HekaLojisticsApp.Web.Framework",
-      "projectPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojistikApp.WebFramework\\HekaLojisticsApp.Web.Framework.csproj",
+      "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojistikApp.WebFramework\\HekaLojisticsApp.Web.Framework.csproj",
       "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojistikApp.WebFramework\\obj\\",
+      "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojistikApp.WebFramework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

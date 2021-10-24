@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ve1Zz7XMa0aBjvndN/gIutS8Y0cw4kHShgpbkGF/1zy1XeVQqjuZHiSzifLzKPJCHFFSjqBQGIOE/E1dp842tg==",
+  "dgSpecHash": "J7i1AraxM4aWv7BY2GRQj3OxEVuosK2ISgXF3nzciuX8uYbjgBKH2YYJUwaOyzuAu64pUvx+tX4r0T3pHIS52g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj",
+  "projectFilePath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.DataAccess\\HekaLojisticsApp.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halil\\.nuget\\packages\\entityframework\\6.3.0\\entityframework.6.3.0.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

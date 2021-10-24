@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj": {}
+    "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj": {
+    "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
+        "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
         "projectName": "HekaLojisticsApp.UI.WebAPI",
-        "projectPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
+        "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
         "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\obj\\",
+        "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

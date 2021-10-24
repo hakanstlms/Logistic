@@ -28,3 +28,18 @@ C:\Users\halil\OneDrive\Masaüstü\Yeni klasör\Logistic\LojistikApp\HekaLojisti
 C:\Users\halil\OneDrive\Masaüstü\Yeni klasör\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.dll
 C:\Users\halil\OneDrive\Masaüstü\Yeni klasör\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\ref\HekaLojisticsApp.Entities.dll
 C:\Users\halil\OneDrive\Masaüstü\Yeni klasör\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.pdb
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\bin\Debug\net5.0\HekaLojisticsApp.Entities.deps.json
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\bin\Debug\net5.0\HekaLojisticsApp.Entities.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\bin\Debug\net5.0\ref\HekaLojisticsApp.Entities.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\bin\Debug\net5.0\HekaLojisticsApp.Entities.pdb
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\bin\Debug\net5.0\HekaLojisticsApp.Core.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\bin\Debug\net5.0\HekaLojisticsApp.Core.pdb
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.csproj.AssemblyReference.cache
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.AssemblyInfoInputs.cache
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.AssemblyInfo.cs
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.csproj.CoreCompileInputs.cache
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.csproj.CopyComplete
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\ref\HekaLojisticsApp.Entities.dll
+C:\git-repo\Logistic\LojistikApp\HekaLojisticsApp.Entities\obj\Debug\net5.0\HekaLojisticsApp.Entities.pdb

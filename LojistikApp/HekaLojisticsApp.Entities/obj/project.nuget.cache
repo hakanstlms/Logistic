@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EgHJN6hupKXYEolB2QIpne7rc0/i7xUwqfQWdQeFecHYBbqi5a4/q2xqao+TgJEJQEoFADGGbLxWt7m6aw68fw==",
+  "dgSpecHash": "bDS/Hcsv5rPCXIW0cQzhmxd40furR7ynT3vHp7GaxKANlNRriWX8A8PrvovPWIQ8rg7iH9uKfLBehgk06+Duow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\halil\\OneDrive\\Masaüstü\\Yeni klasör\\Logistic\\LojistikApp\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj",
+  "projectFilePath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.Entities\\HekaLojisticsApp.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halil\\.nuget\\packages\\microsoft.odata.edm\\7.9.2\\microsoft.odata.edm.7.9.2.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
