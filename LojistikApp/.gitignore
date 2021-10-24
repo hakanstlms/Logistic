@@ -390,7 +390,7 @@ FodyWeavers.xsd
 
 
 
-
+HekaLojisticsApp\.vs\*
 HekaLojisticsApp.Business\bin\Debug\*
 HekaLojisticsApp.Business\obj\Debug\*
 
