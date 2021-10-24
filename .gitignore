@@ -1,6 +1,6 @@
 
 LojistikApp/.vs/HekaLojisticsApp/v16/.suo
-LojistikApp/.vs/HekaLojisticsApp/v16/.suo
+LojistikApp/.vs/HekaLojisticsApp/v17/.suo
 *.cache
 *.cache
 *.editorconfig
@@ -25,3 +25,4 @@ LojistikApp/HekaLojisticsApp.UI.WebAPI/obj/Debug/net5.0/HekaLojisticsApp.UI.WebA
 LojistikApp/HekaLojisticsApp.UI.WebAPI/obj/Debug/net5.0/HekaLojisticsApp.UI.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
 LojistikApp/HekaLojistikApp.WebFramework/obj/Debug/net5.0/HekaLojisticsApp.Web.Framework.GeneratedMSBuildEditorConfig.editorconfig
 LojistikApp/HekaLojisticsApp.Business/obj/Debug/net5.0/HekaLojisticsApp.Business.csproj.AssemblyReference.cache
+LojistikApp/.vs/HekaLojisticsApp/v17/.suo
