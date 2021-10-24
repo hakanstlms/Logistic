@@ -15,8 +15,6 @@ LojistikApp/HekaLojisticsApp.Entities/bin/Debug/net5.0*/
 LojistikApp/HekaLojisticsApp.UI.Web/bin/Debug/net5.0*/
 
 *.json
-LojistikApp/HekaLojisticsApp/
-LojistikApp/HekaLojistikApp
 # User-specific files
 *.suo
 *.user
@@ -234,3 +232,9 @@ PostgreSqlDemo/aspnet-core/src/Volo.PostgreSqlDemo.Web.Mvc/App_Data/Logs/Logs.tx
 
 IdentityServervNextDemo/aspnet-core/src/IdentityServervNextDemo.Web.Mvc/App_Data/Logs/Logs.txt
 *.props
+LojistikApp/HekaLojisticsApp.Business/bin/Debug/net5.0/HekaLojisticsApp.Business.dll
+LojistikApp/HekaLojisticsApp.Business/bin/Debug/net5.0/HekaLojisticsApp.Business.pdb
+*.dll
+LojistikApp/HekaLojisticsApp.Business/bin/Debug/net5.0/HekaLojisticsApp.DataAccess.dll
+LojistikApp/HekaLojisticsApp.Business/bin/Debug/net5.0/HekaLojisticsApp.Dto.dll
+*.dll
