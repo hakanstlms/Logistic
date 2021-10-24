@@ -419,3 +419,12 @@ LojistikApp/Presentation/HekaLojisticsApp.UI.WebAPI/obj/project.assets.json
 LojistikApp/Presentation/HekaLojistikApp.WebFramework/obj/HekaLojisticsApp.Web.Framework.csproj.nuget.dgspec.json
 LojistikApp/Presentation/HekaLojistikApp.WebFramework/obj/HekaLojisticsApp.Web.Framework.csproj.nuget.g.props
 LojistikApp/Presentation/HekaLojistikApp.WebFramework/obj/project.assets.json
+LojistikApp/.vs/HekaLojisticsApp/v16/.suo
+LojistikApp/Libraries/HekaLojisticsApp.Business/obj/Debug/net5.0/HekaLojisticsApp.Business.csproj.FileListAbsolute.txt
+LojistikApp/Libraries/HekaLojisticsApp.Core/obj/Debug/net5.0/HekaLojisticsApp.Core.csproj.FileListAbsolute.txt
+LojistikApp/Libraries/HekaLojisticsApp.DataAccess/obj/Debug/net5.0/HekaLojisticsApp.DataAccess.csproj.FileListAbsolute.txt
+LojistikApp/Libraries/HekaLojisticsApp.Dto/obj/Debug/net5.0/HekaLojisticsApp.Dto.csproj.FileListAbsolute.txt
+LojistikApp/Libraries/HekaLojisticsApp.Entities/obj/Debug/net5.0/HekaLojisticsApp.Entities.csproj.FileListAbsolute.txt
+LojistikApp/Presentation/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/HekaLojisticsApp.UI.Web.csproj.FileListAbsolute.txt
+LojistikApp/Presentation/HekaLojisticsApp.UI.WebAPI/obj/Debug/net5.0/HekaLojisticsApp.UI.WebAPI.csproj.FileListAbsolute.txt
+LojistikApp/Presentation/HekaLojistikApp.WebFramework/obj/Debug/net5.0/HekaLojisticsApp.Web.Framework.csproj.FileListAbsolute.txt
