@@ -193,20 +193,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pro\\.nuget\\packages\\": {}
+    "C:\\Users\\halil\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
+      "projectUniqueName": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
       "projectName": "HekaLojisticsApp.UI.WebAPI",
-      "projectPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
-      "outputPath": "C:\\git-repo\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\obj\\",
+      "projectPath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\HekaLojisticsApp.UI.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\halil\\.nuget\\packages\\",
+      "outputPath": "C:\\git-repo\\Logistic\\LojistikApp\\HekaLojisticsApp.UI.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\halil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -254,7 +259,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
