@@ -508,3 +508,15 @@ LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/Razor/Areas/Secure/Views/Em
 LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/Razor/Areas/Secure/Views/Home/Index.cshtml.g.cs
 LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/Razor/Areas/Secure/Views/Order/CreateOrder.cshtml.g.cs
 LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/Razor/Areas/Secure/Views/Order/Index.cshtml.g.cs
+LojistikApp/HekaLojisticsApp.Entities/obj/Debug/net5.0/HekaLojisticsApp.Entities.assets.cache
+LojistikApp/HekaLojisticsApp.DataAccess/obj/Debug/net5.0/HekaLojisticsApp.DataAccess.assets.cache
+LojistikApp/HekaLojisticsApp.Core/obj/Debug/net5.0/HekaLojisticsApp.Core.assets.cache
+LojistikApp/HekaLojisticsApp.Business/obj/Debug/net5.0/HekaLojisticsApp.Business.assets.cache
+LojistikApp/HekaLojisticsApp.UI.Web/bin/Debug/net5.0/HekaLojisticsApp.UI.Web.Views.dll
+LojistikApp/HekaLojisticsApp.UI.Web/bin/Debug/net5.0/HekaLojisticsApp.UI.Web.Views.pdb
+LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/HekaLojisticsApp.UI.Web.assets.cache
+LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/HekaLojisticsApp.UI.Web.csproj.AssemblyReference.cache
+LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/HekaLojisticsApp.UI.Web.GeneratedMSBuildEditorConfig.editorconfig
+LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/HekaLojisticsApp.UI.Web.Views.dll
+LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/HekaLojisticsApp.UI.Web.Views.pdb
+LojistikApp/HekaLojisticsApp.UI.Web/obj/Debug/net5.0/Razor/Areas/Secure/Views/Order/CreateOrder.cshtml.g.cs
